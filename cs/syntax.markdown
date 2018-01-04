@@ -47,4 +47,4 @@ var isPositive = (i > 0) ? true : false;
 Option 2 is clear and readable, like Option 1, yet Option 2 is far more concise.
 
 **Previous:** [Statements](statements.markdown) |
-**Next:** []()
+**Next:** [Classes](classes.markdown)
