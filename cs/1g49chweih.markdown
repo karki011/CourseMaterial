@@ -1,6 +1,4 @@
-# C# Core
-
-## Introduction
+# C# Introduction
 
 We're going to go over the fundamentals of programming with C#. Let's go over all the basics you'll need to get started.
 
@@ -8,7 +6,7 @@ As we go into details on C# (or any programming language), you'll find that docu
 
 * [Microsoft's C# Documentation](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/)
 
-### Source Code Comments
+## Source Code Comments
 
 A comment is a programmer-readable explanation or annotation in the source code of a computer program. Anything within comments will be ignored by the compiler and are just there to help us programmers understand the code better.
 

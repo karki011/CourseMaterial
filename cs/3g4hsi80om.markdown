@@ -1,12 +1,10 @@
-# C# Core
+# C# Types
 
-## Types
-
-### Value Types
+## Value Types
 
 A value type is set based on the provided value. Assigning one value type variable to another copies the contained value. This differs from the assignment of reference type variables, which copies a reference to the object but not the object itself.
 
-#### Boolean
+### Boolean
 
 The Boolean type is defined with the keyword: `bool`. You can set the value be `true` or `false`:
 
@@ -15,7 +13,7 @@ bool isBoolean = true;
 isBoolean = false;
 ```
 
-#### Character
+### Character
 
 The Character type is defined with the keyword: `char`. You can set the value to any unicode character, surrounded by single quotes:
 
@@ -24,7 +22,7 @@ char myCharacter = 'a';
 myCharacter = '@';
 ```
 
-#### Integer
+### Integer
 
 The Integer type is defined with the keyword: `int`. You can set the value to be any integer between `-2,147,483,648` to `2,147,483,647`:
 
@@ -33,7 +31,7 @@ int myInteger = 123;
 myInteger = -456;
 ```
 
-#### Decimal
+### Decimal
 
 The Decimal type is defined with the keyword: `decimal`. You can set the value to be any decimal within the range of `(-7.9 x 1028 to 7.9 x 1028) / 100 to 28` and followed by an `m`;
 
@@ -42,7 +40,7 @@ decimal myDecimal = 1234567890.234m;
 myDecimal = -1234567890.234m;
 ```
 
-#### Enum
+### Enum
 
 An Enum type is a distinct type used when you want to limit the value set to a fixed amount of options. This allows for very readable code and a delightful autocomplete experience within Visual Studio.
 
@@ -55,7 +53,7 @@ var dayOfWeek = Day.Tue;
 dayOfWeek = Day.Wed;
 ```
 
-#### Other Value Types
+### Other Value Types
 
 Although you won't run into these types quite as often as the four above, we wanted to list them:
 
@@ -69,7 +67,7 @@ Although you won't run into these types quite as often as the four above, we wan
 * `ulong`: an integer between `0` to `18,446,744,073,709,551,615`
 * `ushort`: an integer between `0` to `65,535`
 
-### Null and Nullables
+## Null and Nullables
 
 In C#, the keyword `null` represents the absence of value.
 
@@ -94,18 +92,19 @@ As a note around numbers: `0` is not the same as `null`:
 * `0` is a legitimate number value, stored in memory or to disk as `0`
 * `null` represents the absence of value: nothing is stored in memory or to disk
 
-### Reference Types
+## Reference Types
 
-A reference type is set by storing the actual data (object) in memory and storing a reference to the object within the variable. Reference types in C# automatically support being set null.
+A reference type is set by storing the actual data (object) in memory and storing a reference to the object within the variable. Reference types in C# automatically support being set `null`.
 
-#### String
+### String
 
-A String is a sequence of zero or more unicode characters, surrounded by double quotes
-
-You can concatenate strings with the `+` symbol:
+A String is a sequence of zero or more unicode characters, surrounded by double quotes.
 
 ```cs
-var message = "What's " + "up?";
+var myString = "Hello World!";
+
+// You can concatenate strings with the `+` symbol
+var message = "What's " + "up?"; // message == "What's up?"
 ```
 
 **Previous:** [Variables](2g49c4hxux.markdown)
