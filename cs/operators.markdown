@@ -46,6 +46,7 @@ Double equal signs `==` is the operator for "Is Equal":
 
 ```cs
 var isTrue = 4 == 4; // true
+var isTrue = "hello" == "hello"; // also true
 var isFalse = 4 == 8; // false
 ```
 
@@ -53,6 +54,7 @@ In C#, an exlaimation mark, as known as a bang, generally stands for "Not". Bang
 
 ```cs
 var isTrue = 4 != 8; // true
+var isTrue = "hello" != "world"; // also true
 var isFalse = 4 != 4; // false
 ```
 
@@ -73,7 +75,7 @@ Programming is also based in logic. You can easily handle logic operations in pr
 `&&`: Logical "And":
 
 ```cs
-var aBool = true && 8 == 8; // aBool == true
+var aBool = "hello" == "hello" && 8 == 8; // aBool == true
 var bBool = 12 > 8 && 8 > 80; // bBool == false
 ```
 
