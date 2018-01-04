@@ -70,4 +70,5 @@ var didSendFirst = SendEmail("cwinton@truecoders.io"); // This call will return 
 var didSendSecond = SendEmail("dwalsh@truecoders.io"); // This call will return false
 ```
 
-**Previous:** [Types](types.markdown)
+**Previous:** [Types](types.markdown) |
+**Next:** [Operators](operators.markdown)
