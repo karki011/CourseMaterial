@@ -159,4 +159,4 @@ var bAnimal = new Animal("Fluffy"); // created with Name == "Fluffy"
 ```
 
 **Previous:** [Syntax](syntax.markdown) |
-**Next:** []()
+**Next:** [Interfaces](interfaces.markdown)
