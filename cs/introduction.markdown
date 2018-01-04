@@ -22,4 +22,22 @@ A comment is a programmer-readable explanation or annotation in the source code 
 var myVariable = "This will be compiled";
 ```
 
+## Output
+
+When working with C#, at times you'll want to "output" something to for your user or yourself. You can accomplish this with:
+
+```cs
+// Write a message to the console
+Console.WriteLine("Message to write out");
+```
+
+Also, at times, you'll want to read something the user typed in. You can accomplish this with:
+
+```cs
+// This is a message typed by the user
+var message = Console.ReadLine();
+```
+
+Don't worry if this doesn't make total sense yet. We'll get there.
+
 **Next:** [Variables](variables.markdown)
