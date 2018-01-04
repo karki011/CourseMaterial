@@ -31,7 +31,6 @@ C# allows for explicit typing of any variable. Let's see this in action as we de
 ```cs
 string aString = "This is a String";
 string aVal = "Can be 123 or @ or # or any other characters!";
-string line = Console.ReadLine(); // Returns a string typed by the user. More on this later.
 
 aVal = "Modified string"; // The value of a variable can be changed
 
@@ -70,5 +69,4 @@ newVal = "Testing new val"; // You'll never reach this line of code
 
 In C#, type inference is not required, but is considered "best practice".
 
-**Previous:** [Introduction](1g49chweih.markdown) |
 **Next:** [Types](types.markdown)
