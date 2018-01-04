@@ -1,6 +1,6 @@
 # C# Syntax
 
-We’re going to go over some syntax that are used for a number of reasons:
+We're going to go over some syntax that are used for a number of reasons:
 
 * Best Practices: this is syntax that is not required, but is considered the best thing to do. Using type inference with the `var` keyword is considered best practice.
 * Syntax Sugar: this is syntax that is not required and not necessarily best practice, but merely makes coding more convenient or concise.
@@ -9,15 +9,21 @@ We’re going to go over some syntax that are used for a number of reasons:
   * Concise: Code should not be unnecessarily verbose
   * Readable: Code should be easy to read and understand
 
+## Naming Conventions
+
+// TODO: Insert here
+
+## Casing Conventions
+
+// TODO: Insert here
+
 ## Inline If/Ternary Operator
 
 Inline If is syntax sugar. Remember the almighty if? Well it was only a matter of time before someone thought that 2 characters was too much to type.
 
 An inline if (also called a ternary operator) has a few parts, following this format:
 
-```cs
-(conditional) ? true-scope : false-scope;
-```
+`(conditional) ? true-scope : false-scope;`
 
 Option 1: Normal if statement
 

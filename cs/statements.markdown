@@ -4,7 +4,7 @@ Statements are all about handling and manipulating data as you flow through your
 
 ## Scope
 
-Scope is defined with curly braces. This restricts the code to be visible only within the scope. You can think of scope as a parent-child relationship:
+Scope, also called a Block, is defined with curly braces. This restricts the code to be visible only within the scope. You can think of scope as a parent-child relationship:
 
 ```cs
 var hello = "Hello";
@@ -145,7 +145,7 @@ This do-while loop would execute the scope of the loop 1 time, then exit.
 
 ### For
 
-The for statement has lots of uses, but primarily it’s somewhat of a bounded while statement. Use a for loop if you need to execute some code a specific number of times.
+The for statement has lots of uses, but primarily it's somewhat of a bounded while statement. Use a for loop if you need to execute some code a specific number of times.
 
 There are 3 parts to a for loop
 

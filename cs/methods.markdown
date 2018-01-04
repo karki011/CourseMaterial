@@ -11,7 +11,7 @@ A method is a block of code that contains a collection of code to execute. You c
 
 Here's a `public` method with a `void` return type.
 
-The modifier is `public`, meaning any place in the code can call your method. It’s not private or internal.
+The modifier is `public`, meaning any place in the code can call your method. It's not private or internal.
 
 The return type is `void`. You can think of `void` as similar to `null`. It's a keyword that represents the absence of a return type.
 
