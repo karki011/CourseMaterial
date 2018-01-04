@@ -154,7 +154,6 @@ enum Day { Sun, Mon, Tue, Wed, Thu, Fri, Sat };
 // Can only be set to a day of the week
 var dayOfWeek = Day.Tue;
 dayOfWeek = Day.Wed;
-
 ```
 
 #### Other Value Types
