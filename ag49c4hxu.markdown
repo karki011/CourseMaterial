@@ -24,15 +24,13 @@ A comment is a programmer-readable explanation or annotation in the source code 
 var myVariable = "This will be compiled";
 ```
 
-## Types and Variables
-
-### Variables
+## Variables
 
 Variables are a core concept of programming. Similar to variables in math, you use variables in programming to store values. This allows you to reference them later.
 
 In C#, variables have a few different parts:
 
-* Type: the variable’s type
+* Type: the variable’s [type](#types)
 * Name: a descriptive variable name
 * Value: the variable’s value
 
@@ -42,8 +40,10 @@ Below is a variable:
 * Name: `myName`
 * Value: `"Cody Winton"`
 
-Finally, the line of code is terminated with a `;`.
-
 ```cs
 string myName = "Cody Winton";
 ```
+
+Finally, the line of code is terminated with a `;`.
+
+## Types
