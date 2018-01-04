@@ -107,3 +107,5 @@ You can concatenate strings with the `+` symbol:
 ```cs
 var message = "What's " + "up?";
 ```
+
+**Previous:** [Variables](2g49c4hxux.markdown)
