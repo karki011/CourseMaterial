@@ -184,4 +184,4 @@ foreach (var email in emails)
 This executes the scope of the foreach loop 2 times, once for each email address. If we added a 3rd email address to the `emails` array, the foreach loop scope would execute 3 times.
 
 **Previous:** [Operators](operators.markdown) |
-**Next:** [Syntax](syntax.markdown)
+**Next:** [Classes](classes.markdown)

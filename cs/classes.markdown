@@ -158,5 +158,5 @@ var aAnimal = new Animal(); // created with Name == "Fido"
 var bAnimal = new Animal("Fluffy"); // created with Name == "Fluffy"
 ```
 
-**Previous:** [Syntax](syntax.markdown) |
+**Previous:** [Statements](statements.markdown) |
 **Next:** [Interfaces](interfaces.markdown)

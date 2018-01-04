@@ -110,4 +110,4 @@ SendEmails(emailList); // this also works
 We've created a method that accepts either an Array or a List in a type-safe fashion.
 
 **Previous:** [Classes](classes.markdown) |
-**Next:** []()
+**Next:** [Syntax](syntax.markdown)
