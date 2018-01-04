@@ -6,7 +6,7 @@ We're going to go over the fundamentals of programming with C#. Let's go over al
 
 As we go into details on C# (or any programming language), you'll find that documentation is your best friend for learning and improving your language skill set:
 
-* Microsoft's [C# Documentation](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/)
+* [Microsoft's C# Documentation](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/)
 
 ### Source Code Comments
 
@@ -36,14 +36,14 @@ In C#, variables have a few different parts:
 
 Below is a variable:
 
-* Type: `string`
-* Name: `myName`
-* Value: `"Cody Winton"`
-
 ```cs
 string myName = "Cody Winton";
 ```
 
-Finally, the line of code is terminated with a `;`.
+* Type: `string`
+* Name: `myName`
+* Value: `"Cody Winton"`
+
+Finally, the line of code is terminated with a semicolon: `;`.
 
 ## Types
