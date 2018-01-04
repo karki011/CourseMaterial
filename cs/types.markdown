@@ -107,9 +107,22 @@ A String is a sequence of zero or more unicode characters, surrounded by double 
 
 ```cs
 var myString = "Hello World!";
+```
 
-// You can concatenate strings with the `+` symbol
+You can concatenate strings with the `+` symbol:
+
+```cs
 var message = "What's " + "up?"; // message == "What's up?"
+```
+
+You can split a single string into an [array](#arrays) of strings:
+
+```cs
+string aString = "1,2,3"; // the string to split
+char[] separator = ",".ToCharArray(); // "," converted into an array of characters
+
+// This splits `aString` using an array of separator `char` values
+string[] numbers = aString.Split(separator); // numbers == { "1", "2", "3" };
 ```
 
 ### Arrays
@@ -133,6 +146,13 @@ int firstNumber = intsLiteral[0]; // Equals 7
 int secondNumber = intsLiteral[1]; // Equals 58
 
 intsLiteral[2] = 10; // Did change 5 to 10
+```
+
+You can join an array of [strings](#strings) into a single string:
+
+```cs
+string[] numbers = new [] { "1", "2", "3" }; // the array to join
+string allNums = string.Join(",", numbers); // allNums == "1,2,3"
 ```
 
 **Previous:** [Variables](variables.markdown) |
