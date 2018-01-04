@@ -23,3 +23,5 @@ A comment is a programmer-readable explanation or annotation in the source code 
 // This is a C# variable
 var myVariable = "This will be compiled";
 ```
+
+**Next:** [Variables](2g49c4hxux)
