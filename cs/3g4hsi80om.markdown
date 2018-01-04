@@ -107,4 +107,27 @@ var myString = "Hello World!";
 var message = "What's " + "up?"; // message == "What's up?"
 ```
 
+### Arrays
+
+Arrays allow you to combine multiple variables of the same type in a single variable. You declare an array type by specifying the type, followed by double square brackets `type[]`.
+
+```cs
+// We've created an array that can hold up to 5 ints
+int[] ints = new int[5];
+
+// You can also use type inference when you provide the variables for the array to contain
+var intsLiteral = new [] { 7, 58, 5 }; // Array with set values using curly bracket notation
+```
+
+Arrays are zero-based index, meaning that the first value is stored at index `0`. You can access a value using its index, along with square bracket notation.
+
+```cs
+var intsLiteral = new [] { 7, 58, 5 };
+
+int firstNumber = intsLiteral[0]; // Equals 7
+int secondNumber = intsLiteral[1]; // Equals 58
+
+intsLiteral[2] = 10; // Did change 5 to 10
+```
+
 **Previous:** [Variables](2g49c4hxux.markdown)

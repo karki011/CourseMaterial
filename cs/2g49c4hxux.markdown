@@ -6,7 +6,7 @@ Variables are a core concept of programming. Similar to variables in math, you u
 
 In C#, variables have a few different parts:
 
-* Type: the variable's [type](#types)
+* Type: the variable's [type](3g4hsi80om.markdown)
 * Name: a descriptive variable name
 * Value: the variable's value
 
@@ -28,7 +28,7 @@ C# is a strongly, statically typed language, meaning that every variable has a t
 
 ### Explicit Typing
 
-C# allows for explicit typing of any variable. Let's see this in action as we define a few [String](#string) variables:
+C# allows for explicit typing of any variable. Let's see this in action as we define a few [String](3g4hsi80om.markdown#string) variables:
 
 ```cs
 string aString = "This is a String";
@@ -51,7 +51,7 @@ C# also supports type inference, which means that you don't always have to expli
 
 The keyword `var` allows the compiler to infer type at compile time based on the provided value.
 
-Let's see this in action as we define a few [String](#string) variables:
+Let's see this in action as we define a few [String](3g4hsi80om.markdown#string) variables:
 
 ```cs
 var aString = "This is a String";
