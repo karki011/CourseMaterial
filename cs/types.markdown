@@ -115,7 +115,7 @@ You can concatenate strings with the `+` symbol:
 var message = "What's " + "up?"; // message == "What's up?"
 ```
 
-You can split a single string into an [array](#arrays) of strings:
+You can split a single string into an [array](#array) of strings:
 
 ```cs
 string aString = "1,2,3"; // the string to split
@@ -125,7 +125,7 @@ char[] separator = ",".ToCharArray(); // "," converted into an array of characte
 string[] numbers = aString.Split(separator); // numbers == { "1", "2", "3" };
 ```
 
-### Arrays
+### Array
 
 Arrays allow you to combine multiple variables of the same type in a single variable. You declare an array type by specifying the type, followed by double square brackets `type[]`.
 
@@ -153,6 +153,36 @@ You can join an array of [strings](#strings) into a single string:
 ```cs
 string[] numbers = new [] { "1", "2", "3" }; // the array to join
 string allNums = string.Join(",", numbers); // allNums == "1,2,3"
+```
+
+## Reference Types vs. Value Types
+
+With a value type, when you copy a variable you create a clone of the actual value.
+
+Let's see how this works with an [int](#integer)
+
+```cs
+var a = 1; // value type int
+var b = a; // clone the value of `a`
+
+a = 2; // Change the contained value of `a`
+
+// Now a == 2 && b == 1
+```
+
+With a reference type, when you copy a variable you create a clone of the reference to the same actual data value:
+
+Let's see how this works with a [class](classes.markdown#classes) called `Animal`.
+
+```cs
+var c = new Animal { Name = "Fido" }; // reference type Animal
+var d = c; // copy of reference to same object
+
+// currently c.Name == "Fido" && d.Name == "Fido", but let's change that:
+c.Name = "Fluffy";
+
+// You changed the property of the actual object
+// So now c.Name == "Fluffy" && d.Name == "Fluffy"
 ```
 
 **Previous:** [Variables](variables.markdown) |
