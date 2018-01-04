@@ -1,5 +1,10 @@
 # C# Types
 
+C# Types tend to fall into 2 categories:
+
+* Value Types
+* Reference Types
+
 ## Value Types
 
 A value type is set based on the provided value. Assigning one value type variable to another copies the contained value. This differs from the assignment of reference type variables, which copies a reference to the object but not the object itself.

@@ -1,7 +1,5 @@
 # C# Variables
 
-## How They Work
-
 Variables are a core concept of programming. Similar to variables in math, you use variables in programming to store values. This allows you to reference them later.
 
 In C#, variables have a few different parts:
