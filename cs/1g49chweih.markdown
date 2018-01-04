@@ -24,4 +24,4 @@ A comment is a programmer-readable explanation or annotation in the source code 
 var myVariable = "This will be compiled";
 ```
 
-**Next:** [Variables](2g49c4hxux)
+**Next:** [Variables](2g49c4hxux.markdown)
