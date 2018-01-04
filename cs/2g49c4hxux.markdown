@@ -55,9 +55,6 @@ The keyword `var` allows the compiler to infer type at compile time based on the
 
 Let's see this in action as we define a few [String](#string) variables:
 
-
-
-
 ```cs
 var aString = "This is a String";
 var aVal = "Can be 123 or @ or # or any other characters!";
