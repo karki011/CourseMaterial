@@ -130,4 +130,5 @@ int secondNumber = intsLiteral[1]; // Equals 58
 intsLiteral[2] = 10; // Did change 5 to 10
 ```
 
-**Previous:** [Variables](2g49c4hxux.markdown)
+**Previous:** [Variables](2g49c4hxux.markdown) |
+**Next:** [Methods](4gsig02mx8.markdown)

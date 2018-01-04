@@ -72,5 +72,5 @@ newVal = "Testing new val"; // You'll never reach this line of code
 
 In C#, type inference is not required, but is considered "best practice".
 
-**Previous:** [Introduction](1g49chweih.markdown)
+**Previous:** [Introduction](1g49chweih.markdown) |
 **Next:** [Types](3g4hsi80om.markdown)
