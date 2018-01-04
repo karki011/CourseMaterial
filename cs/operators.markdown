@@ -91,4 +91,5 @@ var aBool = !false; // aBool == true
 var bBool = !true; // bBool == false
 ```
 
-**Previous:** [Methods](methods.markdown)
+**Previous:** [Methods](methods.markdown) |
+**Next:** [Statements](statements.markdown)
