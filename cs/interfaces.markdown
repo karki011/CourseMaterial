@@ -78,7 +78,26 @@ class Penguin : Animal, IBird
 }
 ```
 
-Let's look at an example that shows the benefit of interchangeable code using Interfaces. We'll use the `IEnumerable` interface:
+Let's look at an example that shows the benefit of interchangeable code using Interfaces. We'll use the `IBird` interface with a method:
+
+```cs
+public void CleanBird(IBird bird)
+{
+    bird.CleanFeathers();
+}
+```
+
+We've created a method that accepts any bird in a type-safe fashion. Later, we can create an instance of the `Hawk` class and the `Penguin` class. Both of these instances are different types, but both implement the `IBird` interface:
+
+```cs
+var hawk = new Hawk();
+CleanBird(hawk); // this works
+
+var penguin = new Penguin();
+CleanBird(penguin); // this also works
+```
+
+Let's look at another example. We'll use the `IEnumerable` interface:
 
 ```cs
 // Here we have an array of strings
@@ -93,7 +112,7 @@ Both these variables are different types, but both implement the `IEnumerable` i
 ```cs
 public void SendEmails(IEnumerable<string> emailAddresses)
 {
-    foreach (var emailAddress in emailAddresses)
+    foreach(var emailAddress in emailAddresses)
     {
         //do something with the email
     }

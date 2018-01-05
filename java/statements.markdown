@@ -171,7 +171,7 @@ Below is a foreach loop that iterates of an array of 2 email addresses. These pa
 ```java
 String[] emails = new [] { "a@me.com", "b@me.com" };
 
-for(String email : emails) {
+for (String email : emails) {
     //do something with the `email`, like send a marketing message
 }
 ```

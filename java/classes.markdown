@@ -93,7 +93,7 @@ public class Animal
 }
 
 // The Dog class is a child class of the parent Animal class
-public class Dog : Animal
+public class Dog extends Animal
 {
 
 }
