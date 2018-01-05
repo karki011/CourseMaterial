@@ -1,6 +1,6 @@
 # Java Variables
 
-Variables are a core concept of programming. Similar to variables in math, you use variables in programming to store values. This allows you to reference them later.
+Variables, sometimes called properties, are a core concept of programming. Similar to variables in math, you use variables in programming to store values. This allows you to reference them later.
 
 In Java, variables have a few different parts:
 

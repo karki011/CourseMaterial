@@ -1,6 +1,6 @@
 # Java Methods
 
-A method is a block of code that contains a collection of code to execute. You can execute this code by calling the method. In Java, a method consists of a few things:
+A method, sometimes called a function, is a block of code that contains a collection of code to execute. You can execute this code by calling the method. In Java, a method consists of a few things:
 
 * Modifiers: an optional list of keywords that give certain qualities to the method
 * Return Type: the [type](types.markdown) returned by the method, or `void` when not returning anything
