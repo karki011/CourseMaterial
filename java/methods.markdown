@@ -16,9 +16,9 @@ The modifier is `public`, meaning any place in the code can call your method. It
 The return type is `void`. You can think of `void` as similar to `null`. It's a keyword that represents the absence of a return type.
 
 ```java
-public void MyMethod()
+public void myMethod()
 {
-    // Code to execute goes here when MyMethod() is called
+    // Code to execute goes here when myMethod() is called
     // Return type is void, so no need to return anything
 }
 ```
@@ -26,9 +26,9 @@ public void MyMethod()
 Here's a `public` method with a `String` return type:
 
 ```java
-public String MyMessage()
+public String myMessage()
 {
-    // Code to execute goes here when MyMessage() is called
+    // Code to execute goes here when myMessage() is called
     // Return type is string, so we must return a string
     return "This is the message";
 }
@@ -37,9 +37,9 @@ public String MyMessage()
 Later in your code, you can call your methods:
 
 ```java
-MyMethod(); // executes any code in your MyMethod() method
+myMethod(); // executes any code in your myMethod() method
 
-String message = MyMessage(); // executes any code in MyMessage() and returns a String
+String message = myMessage(); // executes any code in myMessage() and returns a String
 ```
 
 ## Parameters
@@ -47,7 +47,7 @@ String message = MyMessage(); // executes any code in MyMessage() and returns a 
 Below, we have a method called `SendEmail`. The return type is `boolean`, in this case, if the email sent with success. The method has one parameter: `String emailAddress`.
 
 ```java
-public boolean SendEmail(String emailAddress)
+public boolean sendEmail(String emailAddress)
 {
     if (emailAddress.equals("cwinton@truecoders.io"))
     {
@@ -65,9 +65,9 @@ public boolean SendEmail(String emailAddress)
 Later in your code, you can call your methods:
 
 ```java
-boolean didSendFirst = SendEmail("cwinton@truecoders.io"); // This call will return true
+boolean didSendFirst = sendEmail("cwinton@truecoders.io"); // This call will return true
 
-boolean didSendSecond = SendEmail("dwalsh@truecoders.io"); // This call will return false
+boolean didSendSecond = sendEmail("dwalsh@truecoders.io"); // This call will return false
 ```
 
 **Previous:** [Types](types.markdown) |
