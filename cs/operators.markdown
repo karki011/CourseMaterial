@@ -1,6 +1,6 @@
 # C# Operators
 
-Operators are all about handling and manipulating data.
+Operators are all about evaluating and manipulating data.
 
 ## Math Operators
 
