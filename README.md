@@ -48,4 +48,5 @@ Console.WriteLine("Message to write out");
 
 ## Languages
 
-[C# Material Start](cs/variables.markdown)
+* [C# Material Start](cs/variables.markdown)
+* [Java Material Start](java/variables.markdown)
