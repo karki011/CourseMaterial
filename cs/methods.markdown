@@ -3,7 +3,7 @@
 A method is a block of code that contains a collection of code to execute. You can execute this code by calling the method. In C#, a method consists of a few things:
 
 * Modifiers: an optional list of keywords that give certain qualities to the method
-* Return Type: the type returned by the method, or `void` when not returning anything
+* Return Type: the [type](types.markdown) returned by the method, or `void` when not returning anything
 * Name: a descriptive method name
 * Parameters: an optional list of parameters to be passed into the method
 
@@ -11,7 +11,7 @@ A method is a block of code that contains a collection of code to execute. You c
 
 Here's a `public` method with a `void` return type.
 
-The modifier is `public`, meaning any place in the code can call your method. It's not private or internal.
+The modifier is `public`, meaning any place in the code can call your method. It's not `private` or `internal`.
 
 The return type is `void`. You can think of `void` as similar to `null`. It's a keyword that represents the absence of a return type.
 
