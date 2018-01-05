@@ -209,4 +209,5 @@ c.Name = "Fluffy";
 // So now c.Name == "Fluffy" && d.Name == "Fluffy"
 ```
 
-**Previous:** [Variables](variables.markdown)
+**Previous:** [Variables](variables.markdown) |
+**Next:** [Methods](methods.markdown)
