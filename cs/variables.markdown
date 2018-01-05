@@ -46,9 +46,7 @@ newVal = "Testing new val";
 
 C# also supports type inference, which means that you don't always have to explicitly specify a type. You can let the compiler try and understand the type of variable automatically.
 
-The keyword `var` allows the compiler to infer type at compile time based on the provided value.
-
-Let's see this in action as we define a few [String](types.markdown#string) variables:
+The keyword `var` allows the compiler to infer type at compile time based on the provided value:
 
 ```cs
 var aString = "This is a String";
