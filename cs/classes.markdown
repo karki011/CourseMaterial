@@ -35,7 +35,7 @@ public class Animal
 
 ## Instances
 
-If a class is like a cookie cutter, an "instance" of that class is like a cut out cookie. The below code creates a new instance of the `Animal` class:
+If a class is like a cookie cutter, an "instance" of that class is like an actual cut-out cookie. The below code creates a new instance of the `Animal` class:
 
 ```cs
 var animal = new Animal();
@@ -130,7 +130,7 @@ animal.SayName(); // Writes "My name is Fido" to the console
 
 ## Constructor
 
-Similar to an object initializer, a constructor allows you to assign property values when you create the instance of a class. This makes code cleaner and allows us to ensure that every value is properly set at the time of initialization.
+A constructor allows you to assign property values when you create the instance of a class. This makes code cleaner and allows us to ensure that every value is properly set at the time of initialization.
 
 In addition, you can also execute other necessary "setup" code at the time of constructing an instance:
 
@@ -143,6 +143,7 @@ public class Animal
     public Animal() : this("Fido")
     {
         // Handle some default execution
+        // this("Fido") calls the constructor below
     }
 
     // Specific constructor, called above as well
