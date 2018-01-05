@@ -48,7 +48,7 @@ if (4 > 8) // this resolves to false
 The else statement provides scope for an if statement that resolves to `false`:
 
 ```cs
-if (4 == 5) // your conditional is 4 == 5, which is false
+if (4 == 5) // your conditional is "if 4 equals 5", which is false
 {
     // so your if scope is skipped over
 }
@@ -66,7 +66,7 @@ var b = 5;
 
 if (a == b) // checked first
 {
-    // executes if a == b
+    // executes if a equals b
 }
 else if (a > b) // checked if the first conditional isn't true
 {

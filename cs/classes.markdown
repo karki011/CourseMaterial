@@ -37,8 +37,8 @@ If a class is like a cookie cutter, an "instance" of that class is like a cut ou
 
 ```cs
 var animal = new Animal();
-animal.Name = "Fido"; // animal.name == "Fido"
-var name = animal.Name; // `name` == "Fido"
+animal.Name = "Fido"; // animal.name equals "Fido"
+var name = animal.Name; // `name` equals "Fido"
 
 // Calling the SayName method will execute the SayName code
 animal.SayName(); // Writes "My name is Fido" to the console
@@ -122,7 +122,7 @@ public class Animal
 ```
 
 ```cs
-var animal = new Animal { Name = "Fido" }; // created with Name == "Fido"
+var animal = new Animal { Name = "Fido" }; // created with Name equal to "Fido"
 animal.SayName(); // Writes "My name is Fido" to the console
 ```
 
@@ -154,8 +154,8 @@ public class Animal
 Later in your code:
 
 ```cs
-var aAnimal = new Animal(); // created with Name == "Fido"
-var bAnimal = new Animal("Fluffy"); // created with Name == "Fluffy"
+var aAnimal = new Animal(); // created with Name equal to "Fido"
+var bAnimal = new Animal("Fluffy"); // created with Name equal to "Fluffy"
 ```
 
 **Previous:** [Statements](statements.markdown) |

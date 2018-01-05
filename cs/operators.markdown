@@ -75,22 +75,22 @@ Programming is also based in logic. You can easily handle logic operations in pr
 `&&`: Logical "And":
 
 ```cs
-var aBool = "hello" == "hello" && 8 == 8; // aBool == true
-var bBool = 12 > 8 && 8 > 80; // bBool == false
+var aBool = "hello" == "hello" && 8 == 8; // aBool equals true
+var bBool = 12 > 8 && 8 > 80; // bBool equals false
 ```
 
 `||`: Logical "Or":
 
 ```cs
-var aBool = 8 > 80 || 4 < 8; // aBool == true
-var bBool = 6 == 7 || false; // bBool == false
+var aBool = 8 > 80 || 4 < 8; // aBool equals true
+var bBool = 6 == 7 || false; // bBool equals false
 ```
 
 `!`: Logical "Not":
 
 ```cs
-var aBool = !false; // aBool == true
-var bBool = !true; // bBool == false
+var aBool = !false; // aBool equals true
+var bBool = !true; // bBool equals false
 ```
 
 **Previous:** [Methods](methods.markdown) |
