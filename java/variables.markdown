@@ -39,3 +39,5 @@ aVal = 123; // fails
 String newVal;
 newVal = "Testing new val";
 ```
+
+**Next:** [Types](types.markdown)

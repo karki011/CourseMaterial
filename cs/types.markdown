@@ -38,7 +38,7 @@ myInteger = -456;
 
 ### Decimal
 
-The Decimal type is defined with the keyword: `decimal`. You can set the value to be any decimal within the range of `(-7.9 x 1028 to 7.9 x 1028) / 100 to 28` and followed by an `m`;
+The Decimal type is defined with the keyword: `decimal`. You can set the value to be any decimal within the range of `(-7.9 x 1028 to 7.9 x 1028) / 100 to 28` and appended with an `m`;
 
 ```cs
 decimal myDecimal = 1234567890.234m;
@@ -92,9 +92,9 @@ string myString = "Hello World";
 myString = null;
 ```
 
-As a note around numbers: `0` is not the same as `null`:
+As a note about `null`: `0` is not the same as `null`:
 
-* `0` is a legitimate number value, stored in memory or to disk as `0`
+* `0` is an actual number value, stored in memory or to disk as `0`
 * `null` represents the absence of value: nothing is stored in memory or to disk
 
 ## Reference Types

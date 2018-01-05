@@ -122,7 +122,7 @@ The do statement can be used in tandem with a while statement. Use a do-while lo
 
 ```cs
 var i = 0;
-do 
+do
 {
     // Increment i each execution
     i++;
