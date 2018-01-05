@@ -123,7 +123,7 @@ String myString = "Hello World!";
 You can concatenate strings with the `+` symbol:
 
 ```java
-String message = "What's " + "up?"; // message == "What's up?"
+String message = "What's " + "up?"; // message equals "What's up?"
 ```
 
 You can split a single string into an [array](#array) of strings:
@@ -133,7 +133,7 @@ String aString = "1,2,3"; // the string to split
 String separator = ","; // ","
 
 // This splits `aString` using a separator `String` value
-String[] numbers = aString.Split(separator); // numbers == { "1", "2", "3" };
+String[] numbers = aString.Split(separator); // numbers equals { "1", "2", "3" };
 ```
 
 ### Array
@@ -163,7 +163,7 @@ You can join an array of [strings](#strings) into a single string:
 
 ```java
 String[] numbers = new [] { "1", "2", "3" }; // the array to join
-String allNums = String.join(",", numbers); // allNums == "1,2,3"
+String allNums = String.join(",", numbers); // allNums equals "1,2,3"
 ```
 
 ### Enum
@@ -191,7 +191,7 @@ int b = a; // clone the value of `a`
 
 a = 2; // Change the contained value of `a`
 
-// Now a == 2 && b == 1
+// Now a equals 2 && b equals 1
 ```
 
 With a reference type, when you copy a variable you create a clone of the reference to the same actual data value:
@@ -202,11 +202,11 @@ Let's see how this works with a [class](classes.markdown#classes) called `Animal
 Animal c = new Animal("Fido"); // reference type Animal
 Animal d = c; // copy of reference to same object
 
-// currently c.Name == "Fido" && d.Name == "Fido", but let's change that:
+// currently c.Name equals "Fido" && d.Name equals "Fido", but let's change that:
 c.Name = "Fluffy";
 
 // You changed the property of the actual object
-// So now c.Name == "Fluffy" && d.Name == "Fluffy"
+// So now c.Name equals "Fluffy" && d.Name equals "Fluffy"
 ```
 
 **Previous:** [Variables](variables.markdown) |
