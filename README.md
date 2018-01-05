@@ -8,8 +8,13 @@ We're going to go over the fundamentals of programming. Let's go over all the ba
 
 As we go into details of any programming language, you'll find that documentation is your best friend for learning and improving your language skill set:
 
-* [C# Documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
-* [Java Documentation](https://docs.oracle.com/javase/9/)
+### C# Documentation
+
+* [Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/)
+
+### Java Documentation
+
+* [Oracle Docs](https://docs.oracle.com/javase/9/)
 
 ## Source Code Comments
 
@@ -17,7 +22,7 @@ A comment is a programmer-readable explanation or annotation in the source code 
 
 You'll use comments for documentation and explanation of your code. Anytime you see comments, just know it's there for clarity.
 
-### Comments in C#, Java
+### C# & Java Comments
 
 * A single line comment is prepended with: `//`
 * A multi-line comment is surrounded with: `/* */`
