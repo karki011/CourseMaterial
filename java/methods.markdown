@@ -41,3 +41,34 @@ MyMethod(); // executes any code in your MyMethod() method
 
 String message = MyMessage(); // executes any code in MyMessage() and returns a String
 ```
+
+## Parameters
+
+Below, we have a method called `SendEmail`. The return type is `boolean`, in this case, if the email sent with success. The method has one parameter: `String emailAddress`.
+
+```java
+public boolean SendEmail(String emailAddress)
+{
+    if (emailAddress.equals("cwinton@truecoders.io"))
+    {
+        // Send the email and return true, for success
+        return true;
+    }
+    else
+    {
+        // Don't send the email and return false, for failure
+        return false;
+    }
+}
+```
+
+Later in your code, you can call your methods:
+
+```java
+boolean didSendFirst = SendEmail("cwinton@truecoders.io"); // This call will return true
+
+boolean didSendSecond = SendEmail("dwalsh@truecoders.io"); // This call will return false
+```
+
+**Previous:** [Types](types.markdown) |
+**Next:** [Operators](operators.markdown)
