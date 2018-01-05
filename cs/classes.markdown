@@ -9,7 +9,9 @@ Like variables and methods, classes have a few basic parts:
 * Modifiers: an optional list of keywords that give certain qualities to the class
 * Keyword `class`: required to define a class
 * Name: a descriptive class name
-* Scope: The scope of the class definition
+* Scope: the scope of the class definition
+  * Variables: class or instance variables associated with the class
+  * Methods: class or instance methods associated with the class
 
 Here, we have defined a class called `Animal`:
 
