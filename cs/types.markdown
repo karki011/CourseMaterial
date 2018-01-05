@@ -51,7 +51,7 @@ An Enum type is a distinct type used when you want to limit the value set to a f
 
 ```cs
 // This enum defines every week day
-enum Day { Sun, Mon, Tue, Wed, Thu, Fri, Sat };
+public enum Day { Sun, Mon, Tue, Wed, Thu, Fri, Sat };
 
 // Can only be set to a day of the week
 var dayOfWeek = Day.Tue;
