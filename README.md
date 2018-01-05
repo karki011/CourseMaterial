@@ -1,8 +1,10 @@
-# Programming Introduction
+# TrueCoders Course Materials
 
-Course Materials for TrueCoders. Copyright (c) 2018 TrueCoders LLC. All Rights Reserved.
+Copyright (c) 2018 TrueCoders LLC. All Rights Reserved.
 
 We're going to go over the fundamentals of programming. Let's go over all the basics you'll need to get started.
+
+## Documentation
 
 As we go into details of any programming language, you'll find that documentation is your best friend for learning and improving your language skill set:
 
