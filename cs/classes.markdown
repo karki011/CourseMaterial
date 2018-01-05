@@ -4,7 +4,7 @@ A class is a construct that enables the creation of custom types by grouping tog
 
 ## Classes
 
-Like variables and methods, classes have a few basic parts. In C#, classes have:
+Like variables and methods, classes have a few basic parts:
 
 * Modifiers: an optional list of keywords that give certain qualities to the class
 * Keyword `class`: required to define a class
