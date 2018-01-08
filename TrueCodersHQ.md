@@ -34,10 +34,7 @@ Our TrueCoders HQ has a single bathroom available. If there is necessity, you ma
 
 Parking is provided for all our students that request it. The parking structure is located on Morris Ave, just off of 20th St N. You’ll find the location here on [Google Maps](https://goo.gl/maps/VF1YQCmCwuJ2).
 
-You’ll need to head up the ramp:
+You’ll need to head up the ramp, then scan your key card as shown below:
 
 ![Parking Ramp](assets/parking-ramp.jpg "Parking Ramp")
-
-Then scan your key card as shown below:
-
-![Parking Ramp](assets/parking-scan.jpg "Parking Ramp")
+![Parking Scan](assets/parking-scan.jpg "Parking Scan")
