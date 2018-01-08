@@ -4,6 +4,7 @@
 * [Instances](#instances)
 * [Class Methods and Variables](#class-methods-and-variables)
 * [Inheritance](#inheritance)
+  * [Inheritance Exercise](#inheritance-exercise)
 * [Constructor](#constructor)
 
 ## Fundamentals
@@ -112,6 +113,10 @@ Dog dog = new Dog();
 dog.name = "Fido";
 dog.sayName();
 ```
+
+### Inheritance Exercise
+
+* [Codewars: Subclasses](https://www.codewars.com/kata/basic-subclasses-adam-and-eve/train/java)
 
 ## Constructor
 

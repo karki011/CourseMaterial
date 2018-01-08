@@ -4,6 +4,7 @@
 * [Instances](#instances)
 * [Class Methods and Variables](#class-methods-and-variables)
 * [Inheritance](#inheritance)
+  * [Inheritance Exercise](#inheritance-exercise)
 * [Object Initializer](#object-initializer)
 * [Constructor](#constructor)
 
@@ -113,6 +114,10 @@ var dog = new Dog();
 dog.Name = "Fido";
 dog.SayName();
 ```
+
+### Inheritance Exercise
+
+* [Codewars: Subclasses](https://www.codewars.com/kata/basic-subclasses-adam-and-eve/train/csharp)
 
 ## Object Initializer
 
