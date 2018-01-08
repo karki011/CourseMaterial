@@ -1,6 +1,14 @@
 # C# Statements
 
-Statements are all about handling and manipulating data as you flow through your app.
+* [Scope](#scope)
+* [Selection](#selection)
+  * [If](#if)
+  * [Else](#else)
+* [Iteration](#iteration)
+  * [While](#while)
+  * [Do](#do)
+  * [For](#for)
+  * [Foreach](#foreach)
 
 ## Scope
 

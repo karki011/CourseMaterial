@@ -1,10 +1,12 @@
 # C# Interfaces
 
+* [Fundamentals](#fundamentals)
+
+## Fundamentals
+
 An Interface is like a blueprint. It defines some data and functionality that should exist within a type that implements the interface. An interface does not care about the implementation. It merely requires that it is implemented.
 
 C# naming convention dictates that an interface start with a capital `I`, for interface.
-
-## Interfaces
 
 Here's an example interface:
 

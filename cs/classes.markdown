@@ -1,8 +1,15 @@
 # C# Classes
 
-A class is a construct that enables the creation of custom types by grouping together variables of other types, as well as custom methods and/or events. A class is like a blueprint or a cookie cutter. It defines the data and behavior of a type.
+* [Fundamentals](#fundamentals)
+* [Instances](#instances)
+* [Class Methods and Variables](#class-methods-and-variables)
+* [Inheritance](#inheritance)
+* [Object Initializer](#object-initializer)
+* [Constructor](#constructor)
 
-## Classes
+## Fundamentals
+
+A class is a construct that enables the creation of custom types by grouping together variables of other types, as well as custom methods and/or events. A class is like a blueprint or a cookie cutter. It defines the data and behavior of a type.
 
 Like variables and methods, classes have a few basic parts:
 

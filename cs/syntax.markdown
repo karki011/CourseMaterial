@@ -1,5 +1,12 @@
 # C# Syntax
 
+* [Introduction](#introduction)
+* [Naming Conventions](#naming-conventions)
+* [Casing Conventions](#casing-conventions)
+* [Inline If/Ternary Operator](#inline-ifternary-operator)
+
+## Introduction
+
 We're going to go over some syntax that are used for a number of reasons:
 
 * Best Practices: this is syntax that is not required, but is considered the best thing to do. Using type inference with the `var` keyword is considered best practice.

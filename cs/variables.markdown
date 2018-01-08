@@ -1,12 +1,11 @@
 # C# Variables
 
-* [C# Variables](#c-variables)
-  * [Introduction](#introduction)
-  * [Strong and Static Typing](#strong-and-static-typing)
-    * [Explicit Typing](#explicit-typing)
-    * [Type Inference](#type-inference)
+* [Fundamentals](#fundamentals)
+* [Strong and Static Typing](#strong-and-static-typing)
+  * [Explicit Typing](#explicit-typing)
+  * [Type Inference](#type-inference)
 
-## Introduction
+## Fundamentals
 
 Variables, sometimes called properties, are a core concept of programming. Similar to variables in math, you use variables in programming to store values. This allows you to reference them later.
 
