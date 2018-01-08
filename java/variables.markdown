@@ -1,10 +1,9 @@
 # Java Variables
 
-* [Java Variables](#java-variables)
-  * [Introduction](#introduction)
-  * [Strong and Static Typing](#strong-and-static-typing)
+* [Fundamentals](#fundamentals)
+* [Strong and Static Typing](#strong-and-static-typing)
 
-## Introduction
+## Fundamentals
 
 Variables, sometimes called properties, are a core concept of programming. Similar to variables in math, you use variables in programming to store values. This allows you to reference them later.
 

@@ -1,6 +1,7 @@
 # Java Operators
 
-Operators are all about evaluating and manipulating data.
+* [Math Operators](#math-operators)
+* [Logic Operators](#logic-operators)
 
 ## Math Operators
 
