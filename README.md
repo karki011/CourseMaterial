@@ -1,6 +1,16 @@
 # TrueCoders Course Materials
 
-Copyright (c) 2018 TrueCoders LLC. All Rights Reserved.
+* [TrueCoders Course Materials](#truecoders-course-materials)
+  * [Course Languages](#course-languages)
+  * [Documentation](#documentation)
+    * [C# Documentation](#c-documentation)
+    * [Java Documentation](#java-documentation)
+  * [Source Code Comments](#source-code-comments)
+    * [Line Comment](#line-comment)
+    * [Block Comment](#block-comment)
+  * [Output](#output)
+    * [C# Output](#c-output)
+    * [Java Output](#java-output)
 
 ## Course Languages
 
@@ -75,3 +85,5 @@ Output:
 ```
 Message to write out
 ```
+
+Copyright (c) 2018 TrueCoders LLC. All Rights Reserved.
