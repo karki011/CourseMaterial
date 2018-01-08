@@ -14,8 +14,8 @@
 
 ## Course Languages
 
-* [C# Material Start](languages/cs/variables.markdown)
-* [Java Material Start](languages/java/variables.markdown)
+* [C# Material Start](cs/variables.markdown)
+* [Java Material Start](java/variables.markdown)
 
 We're going to go over the fundamentals of programming. But, before you dive in, let's go over all the basics you'll need to get started.
 
