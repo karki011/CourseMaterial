@@ -1,9 +1,29 @@
 # Java Types
 
+* [Java Types](#java-types)
+  * [Introduction](#introduction)
+  * [Primitive Types](#primitive-types)
+    * [Boolean](#boolean)
+    * [Character](#character)
+    * [Byte](#byte)
+    * [Short](#short)
+    * [Integer](#integer)
+    * [Long](#long)
+    * [Float](#float)
+    * [Double](#double)
+  * [Null and Nullables](#null-and-nullables)
+  * [Reference Types](#reference-types)
+    * [String](#string)
+    * [Array](#array)
+    * [Enum](#enum)
+  * [Reference Types vs. Primitive Types](#reference-types-vs-primitive-types)
+
+## Introduction
+
 Java Types tend to fall into 2 categories:
 
-* Primitive Types
-* Reference Types
+* [Primitive Types](#primitive-types)
+* [Reference Types](#reference-types)
 
 ## Primitive Types
 

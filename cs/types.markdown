@@ -1,9 +1,26 @@
 # C# Types
 
+* [C# Types](#c-types)
+  * [Introduction](#introduction)
+  * [Value Types](#value-types)
+    * [Boolean](#boolean)
+    * [Character](#character)
+    * [Integer](#integer)
+    * [Decimal](#decimal)
+    * [Enum](#enum)
+    * [Additional Value Types](#additional-value-types)
+  * [Null and Nullables](#null-and-nullables)
+  * [Reference Types](#reference-types)
+    * [String](#string)
+    * [Array](#array)
+  * [Reference Types vs. Value Types](#reference-types-vs-value-types)
+
+## Introduction
+
 C# Types tend to fall into 2 categories:
 
-* Value Types
-* Reference Types
+* [Value Types](#value-types)
+* [Reference Types](#reference-types)
 
 ## Value Types
 
@@ -58,7 +75,7 @@ var dayOfWeek = Day.Tue;
 dayOfWeek = Day.Wed;
 ```
 
-### Other Value Types
+### Additional Value Types
 
 Although you won't run into these types quite as often as the four above, we wanted to list them:
 
