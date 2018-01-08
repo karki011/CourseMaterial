@@ -7,7 +7,7 @@ Copyright (c) 2018 TrueCoders LLC. All Rights Reserved.
 * [C# Material Start](cs/variables.markdown)
 * [Java Material Start](java/variables.markdown)
 
-We're going to go over the fundamentals of programming. But, before you dive in, let's go over all the basics you'll need to get started:
+We're going to go over the fundamentals of programming. But, before you dive in, let's go over all the basics you'll need to get started.
 
 ## Documentation
 
@@ -27,20 +27,21 @@ A comment is a programmer-readable explanation or annotation in the source code 
 
 You'll use comments for documentation and explanation of your code. Anytime you see comments, just know it's there for clarity.
 
-### Single Line Comment
+### Line Comment
 
-Single line comment syntax for C# and Java is prepended with `//`
+Also known as single-line comment, line comment syntax for C# and Java is prepended with `//`
 
 ```cs
-// Example single line comment
+// Example line comment
 ```
 
-### Multi-Line Comment
+### Block Comment
 
-Multi-line comment syntax for C# and Java is surrounded with `/* */`. Also, though not required, this multi-line comment syntax usually contains a `*` at the beginning of each new line.
+Also known as multi-line comment, block comment syntax for C# and Java is surrounded with `/* */`. Also, though not required, this block comment syntax usually contains a `*` at the beginning of each new line.
 
 ```cs
-/* Example multi-line
+/* Example
+ * block
  * comment
  */
 ```
