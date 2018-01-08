@@ -4,4 +4,8 @@ Copyright (c) 2018 TrueCoders LLC. All Rights Reserved.
 
 ## Course Material
 
-* [Material Start](/languages)
+[Material Start](/languages)
+
+## TrueCoders HQ
+
+[TrueCoders HQ Info](TrueCodersHQ.md)
