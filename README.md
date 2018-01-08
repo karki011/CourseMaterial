@@ -56,9 +56,21 @@ When working with programming languages, at times you'll want to output somethin
 Console.WriteLine("Message to write out");
 ```
 
+Output:
+
+```
+Message to write out
+```
+
 ### Java Output
 
 ```java
 // Write a message to the console
 System.out.println("Message to write out");
+```
+
+Output:
+
+```
+Message to write out
 ```
