@@ -1,11 +1,18 @@
 # Java Methods
 
+* [Java Methods](#java-methods)
+  * [Introduction](#introduction)
+  * [Modifiers and Return Types](#modifiers-and-return-types)
+  * [Parameters](#parameters)
+
+## Introduction
+
 A method, sometimes called a function, is a block of code that contains a collection of code to execute. You can execute this code by calling the method. In Java, a method consists of a few things:
 
 * Modifiers: an optional list of keywords that give certain qualities to the method
 * Return Type: the [type](types.markdown) returned by the method, or `void` when not returning anything
 * Name: a descriptive method name
-* Parameters: an optional list of parameters to be passed into the method
+* Parameters: an optional list of parameters to be passed into the method]
 
 ## Modifiers and Return Types
 

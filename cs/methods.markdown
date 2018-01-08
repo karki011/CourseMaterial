@@ -1,5 +1,12 @@
 # C# Methods
 
+* [C# Methods](#c-methods)
+  * [Introduction](#introduction)
+  * [Modifiers and Return Types](#modifiers-and-return-types)
+  * [Parameters](#parameters)
+
+## Introduction
+
 A method, sometimes called a function, is a block of code that contains a collection of code to execute. You can execute this code by calling the method. In C#, a method consists of a few things:
 
 * Modifiers: an optional list of keywords that give certain qualities to the method
