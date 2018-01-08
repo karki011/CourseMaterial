@@ -7,5 +7,6 @@
   "[markdown]": {
       "editor.insertSpaces": true,
       "editor.tabSize": 2
-  }
+  },
+  "markdown.extension.toc.levels": "2..6"
 }
