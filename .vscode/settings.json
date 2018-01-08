@@ -1,0 +1,11 @@
+{
+  "workbench.colorTheme": "Atom One Dark",
+  "window.zoomLevel": 0,
+  "markdown.extension.toc.unorderedList.marker": "*",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": true,
+  "[markdown]": {
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2
+  }
+}
