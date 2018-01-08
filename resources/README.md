@@ -1,4 +1,4 @@
-# TrueCoders Course Materials
+# TrueCoders Course Material & Resources
 
 * [Course Languages](#course-languages)
 * [Documentation & Resources](#documentation-resources)
