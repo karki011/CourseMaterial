@@ -138,7 +138,7 @@ Message to write out
 | TDD    | Programming    | Test Driven Development                                      |
 | UI     | Programming    | User Interface: The space where humans and machines interact |
 | JSON   | Programming    | JavaScript Object Notation                                   |
-| DRY    | Programming    | Don’t Repeat Yourself                                        |
+| DRY    | Programming    | Don't Repeat Yourself                                        |
 | CRUD   | Programming    | Create Read Update Delete                                    |
 | GET    | REST           | Read a file                                                  |
 | POST   | REST           | Create a file                                                |
