@@ -68,4 +68,4 @@ Here's some tools you'll need to get up and running:
 
 ## Material
 
-* [Java Material Start](variables.markdown)
+Java [Material Start](variables.markdown)

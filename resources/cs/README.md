@@ -72,4 +72,4 @@ Here's some tools you'll need to get up and running:
 
 ## Material
 
-* [C# Material Start](variables.markdown)
+C# [Material Start](variables.markdown)
