@@ -58,16 +58,13 @@ Message to write out
 
 Here's some tools you'll need to get up and running:
 
-| Name                                                                                | Notes                                                       |
-| ----------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| [VirtualBox](https://www.virtualbox.org/wiki/Downloads)                             | Only required if you are installing Windows on Mac or Linux |
-| [Git](https://git-scm.com)                                                          | Source Control Management                                   |
-| [Visual Studio Community Edition](https://www.visualstudio.com)                     | Install with .NET Desktop, .NET Core, and ASP.NET MVC       |
-| [ReSharper](https://www.jetbrains.com/resharper)                                    | Visual Studio Extension for .NET Developers                 |
-| [SourceTree](https://www.sourcetreeapp.com)                                         | Git GUI for Mac and Windows                                 |
-| [Visual Studio Code](https://code.visualstudio.com)                                 | Lightweight Code Editor                                     |
-| [SSMS SQL Server Management Server](https://go.microsoft.com/fwlink/?linkid=858904) |                                                             |
-| [MS Report Builder](https://www.microsoft.com/en-us/download/details.aspx?id=53613) |                                                             |
+| Name                                                                       | Notes                       |
+| -------------------------------------------------------------------------- | --------------------------- |
+| [Java](http://www.oracle.com/technetwork/java/javaee/downloads/index.html) |                             |
+| [Eclipse](https://www.eclipse.org/)                                        |                             |
+| [Visual Studio Code](https://code.visualstudio.com)                        | Lightweight Code Editor     |
+| [Git](https://git-scm.com)                                                 | Source Control Management   |
+| [SourceTree](https://www.sourcetreeapp.com)                                | Git GUI for Mac and Windows |
 
 ## Material
 
