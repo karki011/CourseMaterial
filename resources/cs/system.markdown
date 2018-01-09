@@ -15,11 +15,11 @@
 
 ## Accounts
 
-During this course, you’ll be using a few different online tools. Let’s get some accounts setup:
+During this course, you'll be using a few different online tools. Let's get some accounts setup:
 
 1. Create a [GitHub Account](https://github.com)
 1. Create a [Codewars Account](https://www.codewars.com)
-1. Set your Codewars Clan to (case-sensitive): `TrueCoders`
+1. Set your Codewars Clan to (cAsE-sEnSiTiVe): `TrueCoders`
 
 ## Install Windows on Mac or Linux
 
