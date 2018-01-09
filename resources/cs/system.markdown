@@ -35,7 +35,7 @@ We'll need Windows to run Visual Studio IDE, our C# code editor of choice. You c
 
 ### Install Windows on VirtualBox
 
-This video quickly and accurately describes how to get up and running with Windows and VirtualBox. Your instructors are here to help, if you require it.
+This video quickly and accurately describes how to get up and running with Windows and VirtualBox:
 
 [![Install Windows on VirtualBox Tutorial](http://img.youtube.com/vi/rNV5JmxtKP4/0.jpg)](http://www.youtube.com/watch?v=rNV5JmxtKP4)
 
