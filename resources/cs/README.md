@@ -5,7 +5,6 @@
   * [Line Comment](#line-comment)
   * [Block Comment](#block-comment)
 * [Output](#output)
-* [Tools](#tools)
 * [Material](#material)
 
 ## Documentation & Resources
@@ -55,21 +54,6 @@ Output:
 Message to write out
 ```
 
-## Tools
-
-Here's some tools you'll need to get up and running:
-
-| Name                                                                                | Notes                                                 |
-| ----------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| [VirtualBox](https://www.virtualbox.org/wiki/Downloads)                             | Required to install Windows on Mac/Linux              |
-| [Visual Studio Community Edition](https://www.visualstudio.com)                     | Install with .NET Desktop, .NET Core, and ASP.NET MVC |
-| [ReSharper](https://www.jetbrains.com/resharper)                                    | Visual Studio Extension for .NET Developers           |
-| [Visual Studio Code](https://code.visualstudio.com)                                 | Lightweight Code Editor                               |
-| [Git](https://git-scm.com)                                                          | Source Control Management                             |
-| [SourceTree](https://www.sourcetreeapp.com)                                         | Git GUI for Mac and Windows                           |
-| [SSMS SQL Server Management Server](https://go.microsoft.com/fwlink/?linkid=858904) |                                                       |
-| [MS Report Builder](https://www.microsoft.com/en-us/download/details.aspx?id=53613) |                                                       |
-
 ## Material
 
-C# [Material Start](variables.markdown)
+Awesome, let's get your [System Setup for C#](system.markdown).
