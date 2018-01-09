@@ -51,7 +51,7 @@ Console.WriteLine("Message to write out");
 
 Output:
 
-```
+```output
 Message to write out
 ```
 

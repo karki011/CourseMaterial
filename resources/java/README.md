@@ -50,7 +50,7 @@ System.out.println("Message to write out");
 
 Output:
 
-```
+```output
 Message to write out
 ```
 
