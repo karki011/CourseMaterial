@@ -57,18 +57,18 @@ Message to write out
 
 ## Tools
 
-| Name                                                                                | Install | Notes                                                 |
-| ----------------------------------------------------------------------------------- | ------- | ----------------------------------------------------- |
-| VirtualBox                                                                          | Mac     |                                                       |
-| [Git](https://git-scm.com)                                                          | Windows |                                                       |
-| Visual Studio Community Edition                                                     | Windows | Install with .NET Desktop, .NET Core, and ASP.NET MVC |
-| ReSharper                                                                           | Windows |                                                       |
-| Git Extensions                                                                      | Windows |                                                       |
-| SourceTree                                                                          | Windows |                                                       |
-| Visual Studio Code                                                                  | Windows | Lightweight Code Editor                               |
-| Atom                                                                                | Windows | Lightweight Code Editor                               |
-| [SSMS SQL Server Management Server](https://go.microsoft.com/fwlink/?linkid=858904) | Windows |                                                       |
-| [MS Report Builder](https://www.microsoft.com/en-us/download/details.aspx?id=53613) | Windows |                                                       |
+Here's some tools you'll need to get up and running:
+
+| Name                                                                                | Notes                                                       |
+| ----------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| [VirtualBox](https://www.virtualbox.org/wiki/Downloads)                             | Only required if you are installing Windows on Mac or Linux |
+| [Git](https://git-scm.com)                                                          | Source Control Management                                   |
+| [Visual Studio Community Edition](https://www.visualstudio.com)                     | Install with .NET Desktop, .NET Core, and ASP.NET MVC       |
+| [ReSharper](https://www.jetbrains.com/resharper)                                    | Visual Studio Extension for .NET Developers                 |
+| [SourceTree](https://www.sourcetreeapp.com)                                         | Git GUI for Mac and Windows                                 |
+| [Visual Studio Code](https://code.visualstudio.com)                                 | Lightweight Code Editor                                     |
+| [SSMS SQL Server Management Server](https://go.microsoft.com/fwlink/?linkid=858904) |                                                             |
+| [MS Report Builder](https://www.microsoft.com/en-us/download/details.aspx?id=53613) |                                                             |
 
 ## Material
 
