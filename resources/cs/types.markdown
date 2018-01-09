@@ -79,7 +79,7 @@ Although you won't run into these types quite as often as the four above, we wan
 | `ushort` | unsigned integer | `0` - `65,535`                                             |
 | `long`   | signed integer   | `-9,223,372,036,854,775,808` - `9,223,372,036,854,775,807` |
 | `ulong`  | unsigned integer | `0` - `18,446,744,073,709,551,615`                         |
-| `double` | signed decimal   | `(+/-)5.0 x 10-324` - `(+/-)1.7 x 10308`                    |
+| `double` | signed decimal   | `(+/-)5.0 x 10-324` - `(+/-)1.7 x 10308`                   |
 | `float`  | signed decimal   | `-3.4 x 1038` - `+3.4 x 1038`                              |
 
 ## Reference Types
