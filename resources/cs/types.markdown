@@ -70,15 +70,17 @@ dayOfWeek = Day.Wed;
 
 Although you won't run into these types quite as often as the four above, we wanted to list them:
 
-* `byte`: an integer between `0` to `255`
-* `double`: a decimal within the range of `(+/-)5.0 x 10-324to(+/-)1.7 x 10308`
-* `float`: a decimal between `-3.4 x 1038` to `+3.4 x 1038`
-* `long`: an integer between `-9,223,372,036,854,775,808` to `9,223,372,036,854,775,807`
-* `sbyte`: an integer between `-128` to `127`
-* `short`: an integer between `-32,768` to `32,767`
-* `uint`: an integer between `0` to `4,294,967,295`
-* `ulong`: an integer between `0` to `18,446,744,073,709,551,615`
-* `ushort`: an integer between `0` to `65,535`
+| Type     | Description      | Range/Precision                                            |
+| -------- | ---------------- | ---------------------------------------------------------- |
+| `byte`   | unsigned integer | `0` - `255`                                                |
+| `sbyte`  | signed integer   | `-128` - `127`                                             |
+| `short`  | signed integer   | `-32,768` - `32,767`                                       |
+| `uint`   | unsigned integer | `0` - `4,294,967,295`                                      |
+| `ushort` | unsigned integer | `0` - `65,535`                                             |
+| `long`   | signed integer   | `-9,223,372,036,854,775,808` - `9,223,372,036,854,775,807` |
+| `ulong`  | unsigned integer | `0` - `18,446,744,073,709,551,615`                         |
+| `double` | signed decimal   | `(+/-)5.0 x 10-324` - `(+/-)1.7 x 10308`                    |
+| `float`  | signed decimal   | `-3.4 x 1038` - `+3.4 x 1038`                              |
 
 ## Reference Types
 
