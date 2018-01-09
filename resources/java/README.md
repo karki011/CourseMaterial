@@ -58,13 +58,13 @@ Message to write out
 
 Here's some tools you'll need to get up and running:
 
-| Name                                                | Notes                                                                          |
-| --------------------------------------------------- | ------------------------------------------------------------------------------ |
-| [Java JDK](https://www.oracle.com/java)             | [Mac](https://youtu.be/y6szNJ4rMZ0) or [Windows](https://youtu.be/fTpDHQ_V0Fw) |
-| [Eclipse](https://www.eclipse.org/)                 | [Mac](https://youtu.be/gufMbpxzfWw) or [Windows](https://youtu.be/WIzzHeWukUU) |
-| [Visual Studio Code](https://code.visualstudio.com) | Lightweight Code Editor                                                        |
-| [Git](https://git-scm.com)                          | Source Control Management                                                      |
-| [SourceTree](https://www.sourcetreeapp.com)         | Git GUI for Mac and Windows                                                    |
+| Name                                                | Notes                                                                                     |
+| --------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| [Java JDK](https://www.oracle.com/java)             | Install on [Mac](https://youtu.be/y6szNJ4rMZ0) or [Windows](https://youtu.be/fTpDHQ_V0Fw) |
+| [Eclipse](https://www.eclipse.org/)                 | Install on [Mac](https://youtu.be/gufMbpxzfWw) or [Windows](https://youtu.be/WIzzHeWukUU) |
+| [Visual Studio Code](https://code.visualstudio.com) | Lightweight Code Editor                                                                   |
+| [Git](https://git-scm.com)                          | Source Control Management                                                                 |
+| [SourceTree](https://www.sourcetreeapp.com)         | Git GUI for Mac and Windows                                                               |
 
 ## Material
 
