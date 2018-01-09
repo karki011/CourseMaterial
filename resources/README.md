@@ -14,5 +14,5 @@ As we go into details of any programming language, you'll find that documentatio
 
 ## Course Languages
 
-* [C# Material](/cs)
-* [Java Material](/java)
+* [C# Material](cs)
+* [Java Material](java)
