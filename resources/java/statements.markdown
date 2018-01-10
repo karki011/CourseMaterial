@@ -38,13 +38,11 @@ Selection statements are all about choosing what to execute.
 The if statement evaluates a conditional, which must resolve to either `true` or `false`. Then, you provide the scope of your if statement, which executes if the conditional evaluates to `true`:
 
 ```java
-if (8 > 4) // 8 > 4 is your condition, which is true
-{
+if (8 > 4) { // 8 > 4 is your condition, which is true
     // your scope is executed when the conditional is true
 }
 
-if (4 > 8) // this resolves to false
-{
+if (4 > 8) { // this resolves to false
     // so your scope is skipped over
 }
 ```
@@ -54,12 +52,10 @@ if (4 > 8) // this resolves to false
 The else statement is used in tandem with an if statement, providing scope for an if statement that resolves to `false`:
 
 ```java
-if (4 == 5) // your conditional is "if 4 equals 5", which is false
-{
+if (4 == 5) { // your conditional is "if 4 equals 5", which is false
     // so your if scope is skipped over
 }
-else
-{
+else {
     // your else scope will be executed
 }
 ```
@@ -70,16 +66,13 @@ You can also chain if-else statements together:
 int a = 4;
 int b = 5;
 
-if (a == b) // checked first
-{
+if (a == b) { // checked first
     // executes if a equals b
 }
-else if (a > b) // checked if the first conditional isn't true
-{
+else if (a > b) { // checked if the first conditional isn't true
     // executes if the a > b
 }
-else
-{
+else {
     // executes if all if conditionals above are false
 }
 ```
@@ -93,8 +86,7 @@ Iteration statements are all about executing something multiple times
 The while statement executes everything within scope until a condition is `false`. Use a while loop if you need to execute some code until something happens:
 
 ```java
-while (true)
-{
+while (true) {
     // do something here until condition is false
 }
 ```
@@ -126,8 +118,7 @@ The do statement can be used in tandem with a while statement. Use a do-while lo
 
 ```java
 int i = 0;
-do
-{
+do {
     // Increment i each execution
     i++;
 } while (i < 10);
@@ -137,8 +128,7 @@ You can use a do-while loop to ensure that the scope is executed at least once. 
 
 ```java
 int i = 1;
-do
-{
+do {
     i++;
 } while (i < 1);
 ```
@@ -164,8 +154,7 @@ Below if a for loop that demonstrates the 3 parts:
 These parameters will execute the scope of the for loop 10 times:
 
 ```java
-for (int i = 0; i < 10; i++)
-{
+for (int i = 0; i < 10; i++) {
     // Execute some code
 }
 ```
