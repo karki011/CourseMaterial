@@ -26,7 +26,15 @@ Here, we have defined a class called `Animal`:
 public class Animal
 {
     // We'll define a variable of type string called `name`
-    public String name;
+    private String name;
+    
+    public String getName() {
+        return name;
+    }
+    
+    public String setName(String name) {
+        this.name = name;
+    }
 
     // We'll define a method called `sayName`
     public void sayName()
