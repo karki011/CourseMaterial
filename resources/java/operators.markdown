@@ -54,7 +54,6 @@ In Java, an exlaimation mark, as known as a bang, generally stands for "Not". Ba
 
 ```java
 boolean isTrue = 4 != 8; // true
-boolean isTrue = "hello" != "world"; // also true
 boolean isFalse = 4 != 4; // false
 ```
 
