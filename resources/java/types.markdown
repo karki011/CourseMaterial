@@ -213,11 +213,11 @@ Let's see how this works with a [class](classes.markdown#classes) called `Animal
 Animal c = new Animal("Fido"); // reference type Animal
 Animal d = c; // copy of reference to same object
 
-// currently c.Name equals "Fido" && d.Name equals "Fido", but let's change that:
-c.Name = "Fluffy";
+// currently c.name equals "Fido" && d.name equals "Fido", but let's change that:
+c.name = "Fluffy";
 
 // You changed the property of the actual object
-// So now c.Name equals "Fluffy" && d.Name equals "Fluffy"
+// So now c.name equals "Fluffy" && d.name equals "Fluffy"
 ```
 
 **Previous:** [Variables](variables.markdown) |
