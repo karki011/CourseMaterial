@@ -50,7 +50,7 @@ String message = myMessage(); // executes any code in myMessage() and returns a 
 
 ## Parameters
 
-Below, we have a method called `SendEmail`. The return type is `boolean`, in this case, if the email sent with success. The method has one parameter: `String emailAddress`.
+Below, we have a method called `sendEmail`. The return type is `boolean`, in this case, if the email sent with success. The method has one parameter: `String emailAddress`.
 
 ```java
 public boolean sendEmail(String emailAddress)
