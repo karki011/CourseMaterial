@@ -32,7 +32,7 @@ public class Animal
         return name;
     }
     
-    public String setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
@@ -54,8 +54,8 @@ If a class is like a cookie cutter, an "instance" of that class is like an actua
 
 ```java
 Animal animal = new Animal();
-animal.name = "Fido"; // animal.name equals "Fido"
-String name = animal.name; // `name` equals "Fido"
+animal.setName("Fido"); // animal.name equals "Fido"
+String name = animal.getName(); // `name` equals "Fido"
 
 // Calling the sayName method will execute the sayName code
 animal.sayName(); // Writes "My name is Fido" to the console
