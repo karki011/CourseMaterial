@@ -7,11 +7,11 @@
   * [Decimal](#decimal)
   * [Enum](#enum)
   * [Additional Value Types](#additional-value-types)
+* [Null and Nullables](#null-and-nullables)
 * [Reference Types](#reference-types)
   * [String](#string)
   * [Array](#array)
 * [Reference vs. Value Types](#reference-vs-value-types)
-* [Null and Nullables](#null-and-nullables)
 
 ## Value Types
 
@@ -81,6 +81,31 @@ Although you won't run into these types quite as often as the four above, we wan
 | `ulong`  | unsigned integer | `0` - `18,446,744,073,709,551,615`                         |
 | `double` | signed decimal   | `(+/-)5.0 x 10-324` - `(+/-)1.7 x 10308`                   |
 | `float`  | signed decimal   | `-3.4 x 1038` - `+3.4 x 1038`                              |
+
+## Null and Nullables
+
+In C#, the keyword `null` represents the absence of value.
+
+While [reference types](#reference-types) automacially support being set to `null`, value types require an actual value. When you need to assign `null` to a value type, you employ the "nullable" of that type. A value type, followed by a `?` is shorthand syntax for nullable:
+
+```cs
+// Here's a nullable boolean value
+bool? isBoolean = true;
+isBoolean = null;
+
+// You can do the same for other value types
+int? myInteger = null;
+myInteger = 0;
+
+// Reference types support null automatically
+string myString = "Hello World";
+myString = null;
+```
+
+As a note about `null`: `0` is not the same as `null`:
+
+* `0` is an actual number value, stored in memory or to disk as `0`
+* `null` represents the absence of value: nothing is stored in memory or to disk
 
 ## Reference Types
 
@@ -169,31 +194,6 @@ c.Name = "Fluffy";
 // You changed the property of the actual object
 // So now c.Name equals "Fluffy" && d.Name equals "Fluffy"
 ```
-
-## Null and Nullables
-
-In C#, the keyword `null` represents the absence of value.
-
-While [reference types](#reference-types) automacially support being set to `null`, value types require an actual value. When you need to assign `null` to a value type, you employ the "nullable" of that type. A value type, followed by a `?` is shorthand syntax for nullable:
-
-```cs
-// Here's a nullable boolean value
-bool? isBoolean = true;
-isBoolean = null;
-
-// You can do the same for other value types
-int? myInteger = null;
-myInteger = 0;
-
-// Reference types support null automatically
-string myString = "Hello World";
-myString = null;
-```
-
-As a note about `null`: `0` is not the same as `null`:
-
-* `0` is an actual number value, stored in memory or to disk as `0`
-* `null` represents the absence of value: nothing is stored in memory or to disk
 
 **Previous:** [Variables](variables.markdown) |
 **Next:** [Methods](methods.markdown)
