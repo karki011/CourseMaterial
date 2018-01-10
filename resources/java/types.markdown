@@ -144,7 +144,7 @@ String aString = "1,2,3"; // the string to split
 String separator = ","; // ","
 
 // This splits `aString` using a separator `String` value
-String[] numbers = aString.Split(separator); // numbers equals { "1", "2", "3" };
+String[] numbers = aString.split(separator); // numbers equals { "1", "2", "3" };
 ```
 
 ### Array
