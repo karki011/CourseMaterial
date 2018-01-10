@@ -36,7 +36,7 @@ Option 1: Normal if statement
 
 ```java
 int i = 1;
-int isPositive = false;
+boolean isPositive = false;
 
 if (i > 0)
 {
@@ -48,7 +48,7 @@ Option 2: Inline If/Ternary Operator
 
 ```java
 int i = 1;
-int isPositive = (i > 0) ? true : false;
+boolean isPositive = (i > 0) ? true : false;
 ```
 
 Option 2 is clear and readable, like Option 1, yet Option 2 is far more concise.
