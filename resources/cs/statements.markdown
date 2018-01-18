@@ -104,7 +104,8 @@ One thing to notice: the above code will execute indefinitely, since `true` will
 ```cs
 var i = 0;
 
-while (i < 10) { // Will execute as long as i < 10
+while (i < 10) // Will execute as long as i < 10
+{
     // Increment i each execution
     i++;
 }
@@ -115,7 +116,8 @@ This loop will never execute, since `1` is not less than `1`:
 ```cs
 var i = 1;
 
-while (i < 1) { // Will execute as long as i < 1
+while (i < 1) // Will execute as long as i < 1
+{
     i++;
 }
 ```
