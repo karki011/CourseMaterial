@@ -11,7 +11,8 @@ A method, sometimes called a function, is a block of code that contains a collec
 * Modifiers: an optional list of keywords that give certain qualities to the method
 * Return Type: the [type](types.markdown) returned by the method, or `void` when not returning anything
 * Name: a descriptive method name
-* Parameters: an optional list of parameters to be passed into the method]
+* Parameters: an optional list of parameters to be passed into the method
+* Scope: the block of code to be executed when the method is called
 
 ## Modifiers and Return Types
 
