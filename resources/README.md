@@ -2,6 +2,7 @@
 
 * [Documentation & Resources](#documentation-resources)
 * [Course Languages](#course-languages)
+* [Course Tools](#course-tools)
 
 ## Documentation & Resources
 
@@ -16,3 +17,7 @@ As we go into details of any programming language, you'll find that documentatio
 
 * [C# Material](cs)
 * [Java Material](java)
+
+## Course Tools
+
+* [Git Material](git)
