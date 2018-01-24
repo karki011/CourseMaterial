@@ -2,8 +2,4 @@
 
 Copyright (c) 2018 TrueCoders LLC. All Rights Reserved.
 
-## Course Material
-
-* [Course Material & Resources](resources)
-* [Definitions](Definitions.md)
-* [TrueCoders HQ Info](TrueCodersHQ.md)
+Welcome to our TrueCoders Course Materials. Here are the [resources](resources) available to you. Here you will find information about our [TrueCoders HQ](TrueCodersHQ.md).

@@ -8,6 +8,7 @@
 
 As we go into details of any programming language, you'll find that documentation is your best friend for learning and improving your language skill set:
 
+* [Definitions](definitions.md): our running list of term definitions
 * [Git Docs](https://git-scm.com/doc)
 * [Linus Torvalds on Git](https://youtu.be/4XpnKHJAok8)
 * [Markdown Docs](https://daringfireball.net/projects/markdown/syntax/)
