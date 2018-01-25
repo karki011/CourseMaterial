@@ -6,6 +6,7 @@
   * [Block Comment](#block-comment)
 * [Output](#output)
 * [Material](#material)
+* [Exercises](#exercises)
 
 ## Documentation & Resources
 
@@ -66,3 +67,7 @@ Awesome, let's get your [System Setup](system.markdown) and move onto our materi
 * [Classes](classes.markdown)
 * [Interfaces](interfaces.markdown)
 * [Syntax](syntax.markdown)
+
+## Exercises
+
+* [Hello World](exercise-hello-world.markdown)
