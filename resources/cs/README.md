@@ -70,4 +70,4 @@ Awesome, let's get your [System Setup](system.markdown) and move onto our materi
 
 ## Exercises
 
-* [Hello World](exercise-hello-world.markdown)
+* [Hello World](exercises/hello-world.markdown)
