@@ -71,3 +71,4 @@ Awesome, let's get your [System Setup](system.markdown) and move onto our materi
 ## Exercises
 
 * [Hello World](exercises/hello-world.markdown)
+* [Onboarding App](exercises/onboarding-app.markdown)
