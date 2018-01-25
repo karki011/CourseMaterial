@@ -45,4 +45,4 @@ Unlike some of the competition:
 
 ## Material
 
-Awesome, let's go over [Git Commands](commands.markdown).
+* [Git](git.markdown)

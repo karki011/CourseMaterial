@@ -6,7 +6,6 @@
   * [Our Team](#our-team)
   * [Our Students](#our-students)
 * [Course Languages](#course-languages)
-* [Course Tools](#course-tools)
 * [Documentation & Resources](#documentation-resources)
 
 ## Course Overview
@@ -51,10 +50,7 @@ But press on. Work hard. Put in the time. You'll get out what you put into this 
 
 * [C# Material](cs)
 * [Java Material](java)
-
-## Course Tools
-
-* [Git Material](git)
+* [Tools Material](tools)
 
 ## Documentation & Resources
 
