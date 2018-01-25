@@ -26,7 +26,7 @@ git init
 
 ## Status
 
-The `status` command will show you the status for the working tree that you’re currently in:
+The `status` command will show you the status for the working tree that you're currently in:
 
 ```bash
 # log the current status
@@ -77,7 +77,7 @@ git remote add origin https://github.com/your-username/your-repo-name
 
 ## Push
 
-The `push` command tells git that you’re ready to push your local changes. Just tell git where to push:
+The `push` command tells git that you're ready to push your local changes. Just tell git where to push:
 
 ```bash
 # git push <remote-name> <branch-name> [-u: remember these parameters]
@@ -89,7 +89,7 @@ git push
 
 ## Pull
 
-The `pull` command tells git that you’re wanting to pull any remote changes into your local copy:
+The `pull` command tells git that you're wanting to pull any remote changes into your local copy:
 
 ```bash
 # git pull <remote-name> <branch-name>
@@ -107,13 +107,13 @@ The `diff` command allows you to view the differences between commits:
 # `HEAD` will give us the most recent commit
 git diff HEAD
 
-# `--staged` will give you the changes you’ve staged
+# `--staged` will give you the changes you've staged
 git diff --staged
 ```
 
 ## Reset
 
-The `reset` command allows you to unstage files that you’ve staged:
+The `reset` command allows you to unstage files that you've staged:
 
 ```bash
 # unstage file by name

@@ -13,7 +13,7 @@
 
 ### Introduction
 
-Welcome to TrueCoders. You’re here because:
+Welcome to TrueCoders. You're here because:
 
 * You are interested in computers and programming
 * You want to pursue a career in software development
@@ -24,7 +24,7 @@ Welcome to TrueCoders. You’re here because:
 
 Our aim is to bridge the gap of tech talent in our community. We believe smart passionate people should always be engaged in doing what they love to do.
 
-Our mission is to educate, elevate, and supply smart, passionate people with authentic coding skills to ensure they’re capable of solving real-world programming problems.
+Our mission is to educate, elevate, and supply smart, passionate people with authentic coding skills to ensure they're capable of solving real-world programming problems.
 
 ### Our Team
 
@@ -45,7 +45,7 @@ Our team consists of several people:
 
 This course will be intensive, diving into deep programming concepts. There will be times you want to give up.
 
-But press on. Work hard. Put in the time. You’ll get out what you put into this course. There is real victory for those who graduate from this course: You’ll be employed as Developers!
+But press on. Work hard. Put in the time. You'll get out what you put into this course. There is real victory for those who graduate from this course: You'll be employed as Developers!
 
 ## Course Languages
 

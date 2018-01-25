@@ -56,4 +56,13 @@ Message to write out
 
 ## Material
 
-Awesome, let's get your [System Setup for C#](system.markdown).
+Awesome, let's get your [System Setup](system.markdown) and move onto our materials:
+
+* [Variables](variables.markdown)
+* [Types](types.markdown)
+* [Methods](methods.markdown)
+* [Operators](operators.markdown)
+* [Statements](statements.markdown)
+* [Classes](classes.markdown)
+* [Interfaces](interfaces.markdown)
+* [Syntax](syntax.markdown)
