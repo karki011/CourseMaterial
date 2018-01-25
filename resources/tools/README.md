@@ -46,3 +46,4 @@ Unlike some of the competition:
 ## Material
 
 * [Git](git.markdown)
+* [Logging](logging.markdown)
