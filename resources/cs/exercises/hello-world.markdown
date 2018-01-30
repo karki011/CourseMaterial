@@ -96,7 +96,7 @@ You'll see `Hello World` print out on your screen
 
 ### Visual Studio IDE
 
-Our C# Editor & Integrated Development Environment (IDE) of Choice
+Our C# Editor and Integrated Development Environment (IDE) of Choice
 
 We're glad that you now know how to run your app with just the Command Prompt. However, Visual Studio makes everything a whole lot easier:
 

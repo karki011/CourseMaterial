@@ -1,13 +1,13 @@
-# Java Course Material & Resources
+# Java Course Material and Resources
 
-* [Documentation & Resources](#documentation-resources)
+* [Documentation and Resources](#documentation-resources)
 * [Source Code Comments](#source-code-comments)
   * [Line Comment](#line-comment)
   * [Block Comment](#block-comment)
 * [Output](#output)
 * [Material](#material)
 
-## Documentation & Resources
+## Documentation and Resources
 
 As we go into details of any programming language, you'll find that documentation is your best friend for learning and improving your language skill set:
 

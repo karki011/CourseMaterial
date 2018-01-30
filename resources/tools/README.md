@@ -1,13 +1,13 @@
-# Git Course Material & Resources
+# Git Course Material and Resources
 
-* [Documentation & Resources](#documentation-resources)
+* [Documentation and Resources](#documentation-and-resources)
 * [Source Code Comments](#source-code-comments)
   * [Line Comment](#line-comment)
 * [Overview](#overview)
   * [Git vs. Competition](#git-vs-competition)
 * [Material](#material)
 
-## Documentation & Resources
+## Documentation and Resources
 
 As we go into details of any programming tool, you'll find that documentation is your best friend for learning and improving your tool skill set:
 

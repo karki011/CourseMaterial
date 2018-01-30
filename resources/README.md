@@ -6,7 +6,7 @@
   * [Our Team](#our-team)
   * [Our Students](#our-students)
 * [Course Languages](#course-languages)
-* [Documentation & Resources](#documentation-resources)
+* [Documentation and Resources](#documentation-resources)
 
 ## Course Overview
 
@@ -52,7 +52,7 @@ But press on. Work hard. Put in the time. You'll get out what you put into this 
 * [Java Material](java)
 * [Tools Material](tools)
 
-## Documentation & Resources
+## Documentation and Resources
 
 As we go into details of any programming language, you'll find that documentation is your best friend for learning and improving your language skill set:
 

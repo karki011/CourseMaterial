@@ -1,6 +1,6 @@
-# C# Course Material & Resources
+# C# Course Material and Resources
 
-* [Documentation & Resources](#documentation-resources)
+* [Documentation and Resources](#documentation-and-resources)
 * [Source Code Comments](#source-code-comments)
   * [Line Comment](#line-comment)
   * [Block Comment](#block-comment)
@@ -8,7 +8,7 @@
 * [Material](#material)
 * [Exercises](#exercises)
 
-## Documentation & Resources
+## Documentation and Resources
 
 As we go into details of any programming language, you'll find that documentation is your best friend for learning and improving your language skill set:
 
