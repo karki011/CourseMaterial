@@ -2,37 +2,45 @@
 
 ## Acronyms
 
-| Term     | Topic          | Definition                                                   |
-| -------- | -------------- | ------------------------------------------------------------ |
-| **GUI**  | General        | Graphical User Interface                                     |
-| **NAS**  | General        | Network Attached Storage                                     |
-| **OS**   | General        | Operating System                                             |
-| **RDP**  | General        | Remote Desktop Protocol                                      |
-| **VM**   | General        | Virtual Machine                                              |
-| **VPN**  | General        | Virtual Private Network                                      |
-| **WPF**  | OS             | Windows Presentation Foundation                              |
-| **OOP**  | Programming    | Object Oriented Programming                                  |
-| **OOPL** | Programming    | Object Oriented Programming Language                         |
-| **ANSI** | Programming    | American National Standards Institute                        |
-| **API**  | Programming    | Application Programming Interface                            |
-| **IDE**  | Programming    | Integrated Development Environment                           |
-| **LOC**  | Programming    | Lines of Code                                                |
-| **MVC**  | Programming    | Model View Controller                                        |
-| **RTFM** | Programming    | Read the F**king Manual                                      |
-| **SCM**  | Programming    | Source Control Management                                    |
-| **SLOC** | Programming    | Source Lines of Code                                         |
-| **SQL**  | Programming    | Structured Query Language                                    |
-| **SSH**  | Programming    | Secure Shell                                                 |
-| **TDD**  | Programming    | Test Driven Development                                      |
-| **UI**   | Programming    | User Interface: The space where humans and machines interact |
-| **JSON** | Programming    | JavaScript Object Notation                                   |
-| **DRY**  | Programming    | Don't Repeat Yourself                                        |
-| **CRUD** | Programming    | Create Read Update Delete                                    |
-| **DVCS** | Source Control | Distributed Version Control System                           |
+| Acronym         | Definition                                                        | Topic                |
+| --------------- | ----------------------------------------------------------------- | -------------------- |
+| **ACID**        | Atomicity, Consistency, Isolation, Durability                     | Relational Databases |
+| **ANSI**        | American National Standards Institute                             | Programming          |
+| **API**         | Application Programming Interface                                 | Programming          |
+| **CAP Theorem** | Consistency, Availability, Partition Tolerance                    | Relational Databases |
+| **CRUD**        | Create, Read, Update, Delete                                      | Programming          |
+| **DRY**         | Don't Repeat Yourself                                             | Programming          |
+| **DVCS**        | Distributed Version Control System                                | Source Control       |
+| **GUI**         | Graphical User Interface                                          | General              |
+| **IDE**         | Integrated Development Environment                                | Programming          |
+| **IoC**         | Inversion of Control                                              | Architecture         |
+| **JSON**        | JavaScript Object Notation                                        | Programming          |
+| **LOC**         | Lines of Code                                                     | Programming          |
+| **MVC**         | Model, View, Controller                                           | Architecture         |
+| **NAS**         | Network Attached Storage                                          | General              |
+| **OOP**         | Object Oriented Programming                                       | Programming          |
+| **OOPL**        | Object Oriented Programming Language                              | Programming          |
+| **OS**          | Operating System                                                  | General              |
+| **RDP**         | Remote Desktop Protocol                                           | General              |
+| **REST**        | Representational State Transfer                                   | Web Development      |
+| **REST API**    | Representational State Transfer Application Programming Interface | Programming          |
+| **RTFM**        | Read the F**king Manual                                           | Programming          |
+| **SCM**         | Source Control Management                                         | Programming          |
+| **SLOC**        | Source Lines of Code                                              | Programming          |
+| **SQL**         | Structured Query Language                                         | Programming          |
+| **SSH**         | Secure Shell                                                      | Programming          |
+| **SVN**         | Subversion: SCM Tool                                              | Source Control       |
+| **TDD**         | Test Driven Development                                           | Programming          |
+| **TFS**         | Team Foundation Server: Microsoft SCM Integrated Server Suite     | Source Control       |
+| **UI**          | User Interface: The space where humans and machines interact      | Programming          |
+| **VM**          | Virtual Machine                                                   | General              |
+| **VPN**         | Virtual Private Network                                           | General              |
+| **WPF**         | Windows Presentation Foundation                                   | OS                   |
 
 ## CRUD Definitions
 
 | CRUD         | Create | Read   | Update | Delete |
 | ------------ | ------ | ------ | ------ | ------ |
+| **Action**   | Write  | Read   | Write  | Write  |
 | **REST API** | POST   | GET    | PUT    | DELETE |
 | **SQL**      | INSERT | SELECT | UPDATE | DELETE |
