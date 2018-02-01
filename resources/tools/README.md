@@ -1,4 +1,4 @@
-# Git Course Material and Resources
+# Git and Other Tools Material and Resources
 
 * [Documentation and Resources](#documentation-and-resources)
 * [Source Code Comments](#source-code-comments)
@@ -47,3 +47,4 @@ Unlike some of the competition:
 
 * [Git](git.markdown)
 * [Logging](logging.markdown)
+* [Diagnostics](diagnostics.markdown)
