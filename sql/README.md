@@ -1,9 +1,11 @@
-# SQL
+# SQL: Structured Query Language
 
 * [Documentation and Resources](#documentation-and-resources)
 * [Source Code Comments](#source-code-comments)
   * [Line Comment](#line-comment)
   * [Block Comment](#block-comment)
+* [Source Code Line Termination](#source-code-line-termination)
+* [Case Sensitivity](#case-sensitivity)
 * [Material](#material)
 
 ## Documentation and Resources
@@ -35,11 +37,27 @@ Also known as multi-line comment, block comment syntax is surrounded with `/* */
 /* Example
 block
 comment
- */
+*/
 ```
+
+## Source Code Line Termination
+
+Unless otherwise specified, each line of source code, called a statement, must be terminated with a `;`:
+
+```sql
+-- Here is a select statement
+SELECT * FROM Customers;
+```
+
+## Case Sensitivity
+
+Unless otherwise specified, SQL *IS NOT* case sensitive. For example, `select` is synonymous with `SELECT`.
+
+However, SQL naming convention usually has keywords in ALL CAPS. We will do the same.
 
 ## Material
 
 Awesome, let's get your [System Setup](system.markdown) and move onto our materials:
 
 * [Introduction](introduction.markdown)
+* [CRUD](crud.markdown): Create Read Update Delete

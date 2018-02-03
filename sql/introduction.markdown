@@ -16,16 +16,16 @@ SQL, pronounced "Sequel", stands for Structured Query Languange. From [Wikipedia
 
 There are a many different flavors of SQL, such as:
 
-* MySQL by Oracle
+* MySQL
 * Microsoft SQL
 * PostgreSQL
 * SQLite
 
 ## ANSI SQL
 
-SQL is **NOT** guaranteed to be portable between systems, but many SQL flavors comply with the ANSI standard. To be compliant with the ANSI standard, a flavor of SQL must support at least the major commands (such as SELECT, UPDATE, DELETE, INSERT, WHERE) in a similar manner.
+SQL is **NOT** guaranteed to be portable between systems, but many SQL flavors comply with the ANSI standard. To be compliant with the ANSI standard, a flavor of SQL must support at least the major commands, like `SELECT`, `UPDATE`, `DELETE`, and `INSERT` in a similar manner.
 
 Since the introduction of ANSI SQL, the standard has been revised to include a larger set of features. This is the skillset we'll be focusing on so that you'll have the most portable base of knowledge across all platforms and be able to pick up new ones with ease.
 
 **Previous:** [System Setup](system.markdown) |
-**Next:** [Operators](operators.markdown)
+**Next:** [CRUD](operators.markdown)
