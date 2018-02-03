@@ -28,4 +28,4 @@ SQL is **NOT** guaranteed to be portable between systems, but many SQL flavors c
 Since the introduction of ANSI SQL, the standard has been revised to include a larger set of features. This is the skillset we'll be focusing on so that you'll have the most portable base of knowledge across all platforms and be able to pick up new ones with ease.
 
 **Previous:** [System Setup](system.markdown) |
-**Next:** [CRUD](operators.markdown)
+**Next:** [Statements](statements.markdown)

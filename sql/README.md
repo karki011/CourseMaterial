@@ -60,4 +60,4 @@ However, SQL naming convention usually has keywords in ALL CAPS. We will do the 
 Awesome, let's get your [System Setup](system.markdown) and move onto our materials:
 
 * [Introduction](introduction.markdown)
-* [CRUD](crud.markdown): Create Read Update Delete
+* [Statements](statements.markdown)
