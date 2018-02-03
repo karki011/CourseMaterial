@@ -1,9 +1,10 @@
 # Java Course Material and Resources
 
-* [Documentation and Resources](#documentation-resources)
+* [Documentation and Resources](#documentation-and-resources)
 * [Source Code Comments](#source-code-comments)
   * [Line Comment](#line-comment)
   * [Block Comment](#block-comment)
+* [Source Code Line Termination](#source-code-line-termination)
 * [Output](#output)
 * [Material](#material)
 
@@ -36,6 +37,15 @@ Also known as multi-line comment, block comment syntax is surrounded with `/* */
  * block
  * comment
  */
+```
+
+## Source Code Line Termination
+
+Unless otherwise specified, each line of source code in Java must be terminated with a `;`:
+
+```java
+// Here is a simple variable assignment
+String message = "Hello World";
 ```
 
 ## Output
