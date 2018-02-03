@@ -2,19 +2,35 @@
 
 Welcome to our TrueCoders Course Materials. Copyright (c) 2018 TrueCoders LLC. All Rights Reserved.
 
+* [Course Languages](#course-languages)
+* [Documentation and Resources](#documentation-and-resources)
 * [Course Overview](#course-overview)
   * [Introduction](#introduction)
   * [Our Mission](#our-mission)
   * [Our Team](#our-team)
   * [Our Students](#our-students)
-* [Course Languages](#course-languages)
-* [Documentation and Resources](#documentation-and-resources)
 * [TrueCoders HQ](#truecoders-hq)
   * [WiFi](#wifi)
   * [NAS](#nas)
   * [Coffee Maker](#coffee-maker)
   * [Bathrooms](#bathrooms)
   * [Parking](#parking)
+
+## Course Languages
+
+* [C# Material](cs)
+* [Java Material](java)
+* [Tools Material](tools)
+
+## Documentation and Resources
+
+As we go into details of any programming language, you'll find that documentation is your best friend for learning and improving your language skill set:
+
+* [Definitions](definitions.md): our running list of term definitions
+* [Git Docs](https://git-scm.com/doc)
+* [Linus Torvalds on Git](https://youtu.be/4XpnKHJAok8)
+* [Markdown Docs](https://daringfireball.net/projects/markdown/syntax/)
+* [Semantic Versioning](http://semver.org)
 
 ## Course Overview
 
@@ -53,22 +69,6 @@ Our team consists of several people:
 This course will be intensive, diving into deep programming concepts. There will be times you want to give up.
 
 But press on. Work hard. Put in the time. You'll get out what you put into this course. There is real victory for those who graduate from this course: You'll be employed as Developers!
-
-## Course Languages
-
-* [C# Material](cs)
-* [Java Material](java)
-* [Tools Material](tools)
-
-## Documentation and Resources
-
-As we go into details of any programming language, you'll find that documentation is your best friend for learning and improving your language skill set:
-
-* [Definitions](definitions.md): our running list of term definitions
-* [Git Docs](https://git-scm.com/doc)
-* [Linus Torvalds on Git](https://youtu.be/4XpnKHJAok8)
-* [Markdown Docs](https://daringfireball.net/projects/markdown/syntax/)
-* [Semantic Versioning](http://semver.org)
 
 ## TrueCoders HQ
 
