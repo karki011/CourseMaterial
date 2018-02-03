@@ -2,7 +2,7 @@
 
 Welcome to our TrueCoders Course Materials. Copyright (c) 2018 TrueCoders LLC. All Rights Reserved.
 
-* [Course Languages](#course-languages)
+* [Course Material](#course-material)
 * [Documentation and Resources](#documentation-and-resources)
 * [Course Overview](#course-overview)
   * [Introduction](#introduction)
@@ -16,17 +16,19 @@ Welcome to our TrueCoders Course Materials. Copyright (c) 2018 TrueCoders LLC. A
   * [Bathrooms](#bathrooms)
   * [Parking](#parking)
 
-## Course Languages
+## Course Material
 
-* [C# Material](cs)
-* [Java Material](java)
-* [Tools Material](tools)
+* [C# Material](cs): everything you need to get started with C#
+* [Java Material](java): everything you need to get started with Java
+* [Definitions](definitions.md): our running list of terminology definitions
+* [Diagnostics](diagnostics.markdown): quickly and accurately solve problems in software
+* [Git](git.markdown): version your code with source control
+* [Logging](logging.markdown): know what is happening in production code
 
 ## Documentation and Resources
 
 As we go into details of any programming language, you'll find that documentation is your best friend for learning and improving your language skill set:
 
-* [Definitions](definitions.md): our running list of term definitions
 * [Git Docs](https://git-scm.com/doc)
 * [Linus Torvalds on Git](https://youtu.be/4XpnKHJAok8)
 * [Markdown Docs](https://daringfireball.net/projects/markdown/syntax/)
