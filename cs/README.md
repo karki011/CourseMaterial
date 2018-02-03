@@ -5,6 +5,7 @@
   * [Line Comment](#line-comment)
   * [Block Comment](#block-comment)
 * [Source Code Line Termination](#source-code-line-termination)
+* [Case Sensitivity](#case-sensitivity)
 * [Output](#output)
 * [Material](#material)
 * [Exercises](#exercises)
@@ -49,6 +50,10 @@ Unless otherwise specified, each line of source code in C# must be terminated wi
 // Here is a simple variable assignment
 var message = "Hello World";
 ```
+
+## Case Sensitivity
+
+Unless otherwise specified, the C# language *IS* case sensitive. `User` is distict from `user`.
 
 ## Output
 

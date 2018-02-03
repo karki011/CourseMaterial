@@ -5,6 +5,7 @@
   * [Line Comment](#line-comment)
   * [Block Comment](#block-comment)
 * [Source Code Line Termination](#source-code-line-termination)
+* [Case Sensitivity](#case-sensitivity)
 * [Output](#output)
 * [Material](#material)
 
@@ -47,6 +48,10 @@ Unless otherwise specified, each line of source code in Java must be terminated 
 // Here is a simple variable assignment
 String message = "Hello World";
 ```
+
+## Case Sensitivity
+
+Unless otherwise specified, the Java language *IS* case sensitive. `User` is distict from `user`.
 
 ## Output
 
