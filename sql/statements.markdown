@@ -57,8 +57,6 @@ You can also insert a record for all available columns, as long as you provide v
 INSERT INTO phone_book VALUES ('Cody Winton', '123 Main St.', '205-555-1234');
 ```
 
-**Note:** In SQL, single quotes are the string delimiter: `'Cody Winton'`
-
 ### UPDATE: Modify Existing Records
 
 The `UPDATE` statement in SQL is used to modify existing records in your database. It follows this syntax:
@@ -118,4 +116,4 @@ SELECT * FROM phone_book WHERE Name = 'Cody Winton';
 ```
 
 **Previous:** [Introduction](introduction.markdown) |
-**Next:** []()
+**Next:** [Data](data.markdown)

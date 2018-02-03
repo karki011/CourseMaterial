@@ -61,3 +61,4 @@ Awesome, let's get your [System Setup](system.markdown) and move onto our materi
 
 * [Introduction](introduction.markdown)
 * [Statements](statements.markdown)
+* [Data](data.markdown)
