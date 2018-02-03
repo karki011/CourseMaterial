@@ -41,7 +41,7 @@ Also known as multi-line comment, block comment syntax is surrounded with `/* */
 
 ## Source Code Line Termination
 
-Unless otherwise specified, each line of source code in Java must be terminated with a `;`:
+Unless otherwise specified, each line of source code in Java must be terminated with a `;`
 
 ```java
 // Here is a simple variable assignment
