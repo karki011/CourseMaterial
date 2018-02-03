@@ -30,15 +30,13 @@ SELECT * FROM Customers WHERE Id = 42;
 In SQL statements, the keyword `NULL` represents the absence of value:
 
 ```sql
--- Select where column is null
-SELECT column_names
-FROM table_name
-WHERE column_name IS NULL;
+-- Select where Address is null
+SELECT LastName, FirstName FROM Persons
+WHERE Address IS NULL;
 
--- Select where column isn't null
-SELECT column_names
-FROM table_name
-WHERE column_name IS NOT NULL;
+-- Select where Address isn't null
+SELECT LastName, FirstName, Address FROM Persons
+WHERE Address IS NOT NULL;
 ```
 
 **Note:** `NULL` is not the same as `0` or an empty string: `''`
