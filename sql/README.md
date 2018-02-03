@@ -4,12 +4,14 @@
 * [Source Code Comments](#source-code-comments)
   * [Line Comment](#line-comment)
   * [Block Comment](#block-comment)
+* [Material](#material)
 
 ## Documentation and Resources
 
 As we go into details of any programming tool, you'll find that documentation is your best friend for learning and improving your tool skill set:
 
 * [W3 Schools](https://www.w3schools.com/sql/default.asp)
+* [Wikipedia](https://en.wikipedia.org/wiki/SQL)
 
 ## Source Code Comments
 
@@ -35,3 +37,9 @@ block
 comment
  */
 ```
+
+## Material
+
+Awesome, let's get your [System Setup](system.markdown) and move onto our materials:
+
+* [Introduction](introduction.markdown)
