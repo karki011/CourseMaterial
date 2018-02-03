@@ -102,9 +102,9 @@ string myString = "Hello World";
 myString = null;
 ```
 
-As a note about `null`: `0` is not the same as `null`:
+**Note:** `null` is not the same as `0` or an empty string: `""`
 
-* `0` is an actual number value, stored in memory or to disk as `0`
+* `0` and `""` are actual values, stored in memory or to disk as `0` or `""`
 * `null` represents the absence of value: nothing is stored in memory or to disk
 
 ## Reference Types
