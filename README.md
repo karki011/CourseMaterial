@@ -3,6 +3,8 @@
 Welcome to our TrueCoders Course Materials. Copyright (c) 2018 TrueCoders LLC. All Rights Reserved.
 
 * [Course Material](#course-material)
+  * [Languages](#languages)
+  * [Tools and Resources](#tools-and-resources)
 * [Documentation and Resources](#documentation-and-resources)
 * [Course Overview](#course-overview)
   * [Introduction](#introduction)
@@ -18,8 +20,14 @@ Welcome to our TrueCoders Course Materials. Copyright (c) 2018 TrueCoders LLC. A
 
 ## Course Material
 
-* [C# Material](cs): everything you need to get started with C#
-* [Java Material](java): everything you need to get started with Java
+### Languages
+
+* [C# Material](cs)
+* [Java Material](java)
+* [SQL Material](sql)
+
+### Tools and Resources
+
 * [Definitions](definitions.md): our running list of terminology definitions
 * [Diagnostics](diagnostics.markdown): quickly and accurately solve problems in software
 * [Git](git.markdown): version your code with source control

@@ -1,0 +1,37 @@
+# SQL
+
+* [Documentation and Resources](#documentation-and-resources)
+* [Source Code Comments](#source-code-comments)
+  * [Line Comment](#line-comment)
+  * [Block Comment](#block-comment)
+
+## Documentation and Resources
+
+As we go into details of any programming tool, you'll find that documentation is your best friend for learning and improving your tool skill set:
+
+* [W3 Schools](https://www.w3schools.com/sql/default.asp)
+
+## Source Code Comments
+
+A comment is a programmer-readable explanation or annotation in the source code of a computer program. Anything within comments will be ignored by a compiler and are just there to help us programmers understand the code better.
+
+You'll use comments for documentation and explanation of your code. Anytime you see comments, just know it's there for clarity.
+
+### Line Comment
+
+Also known as single-line comment, line comment syntax is prepended with `--`
+
+```sql
+-- Example line comment
+```
+
+### Block Comment
+
+Also known as multi-line comment, block comment syntax is surrounded with `/* */`
+
+```sql
+/* Example
+block
+comment
+ */
+```
