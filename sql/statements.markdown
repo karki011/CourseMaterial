@@ -1,14 +1,9 @@
 # SQL Statements
 
-* [CRUD Statements](#crud-statements)
-  * [SELECT: Read Existing Records](#select-read-existing-records)
-  * [INSERT: Create New Records](#insert-create-new-records)
-  * [UPDATE: Modify Existing Records](#update-modify-existing-records)
-  * [DELETE: Remove Existing Records](#delete-remove-existing-records)
-* [Modification Keywords](#modification-keywords)
-  * [WHERE: Filter Records](#where-filter-records)
-
-## CRUD Statements
+* [SELECT: Read Existing Records](#select-read-existing-records)
+* [INSERT: Create New Records](#insert-create-new-records)
+* [UPDATE: Modify Existing Records](#update-modify-existing-records)
+* [DELETE: Remove Existing Records](#delete-remove-existing-records)
 
 In the world of data manipulation, the acronym CRUD (Create, Read, Update, Delete) has become popular, since CRUD encapulates all the possible data manipulation actions:
 
@@ -17,9 +12,9 @@ In the world of data manipulation, the acronym CRUD (Create, Read, Update, Delet
 * Update: The act of modifying existing data
 * Delete: The act of removing existing data
 
-In the world of SQL, we also need the ability to manipulate data/records. We have CRUD in ANSI SQL with these statements:
+In the world of SQL, we also need the ability to manipulate data/records. We have CRUD in ANSI SQL with these four statements:
 
-### SELECT: Read Existing Records
+## SELECT: Read Existing Records
 
 The `SELECT` statement in SQL is used to read, or query, existing records in your database. It follows this syntax:
 
@@ -38,7 +33,7 @@ You can also select from all columns by using `*`:
 SELECT * FROM phone_book;
 ```
 
-### INSERT: Create New Records
+## INSERT: Create New Records
 
 The `INSERT` statement in SQL is used to create a new record to your database. It follows this syntax:
 
@@ -57,7 +52,7 @@ You can also insert a record for all available columns, as long as you provide v
 INSERT INTO phone_book VALUES ('Cody Winton', '123 Main St.', '205-555-1234');
 ```
 
-### UPDATE: Modify Existing Records
+## UPDATE: Modify Existing Records
 
 The `UPDATE` statement in SQL is used to modify existing records in your database. It follows this syntax:
 
@@ -78,7 +73,7 @@ UPDATE phone_book SET Name = 'John Doe', Phone = '205-123-4567' WHERE Name = 'Co
 
 **Note:** Without the `WHERE` clause in the `UPDATE` statement, every record in our table will be updated based on the key, value pairs provided.
 
-### DELETE: Remove Existing Records
+## DELETE: Remove Existing Records
 
 The `DELETE` statement in SQL is used to remove existing records in your database. It follows this syntax:
 
@@ -95,25 +90,5 @@ DELETE FROM phone_book WHERE Name = 'Cody Winton'
 
 **Note:** Without the `WHERE` clause in the `DELETE` statement, every record in our table will be deleted.
 
-## Modification Keywords
-
-ANSI SQL provides additional statement keywords that can be used in tandem with the above CRUD statements to modify the query results.
-
-### WHERE: Filter Records
-
-The `SELECT`, `UPDATE`, and `DELETE` statements all support adding a `WHERE` clause:
-
-```sql
-SELECT column1, column2, ...
-FROM table_name
-WHERE condition;
-
--- Select the Name and Address columns from the phone_book table where the id equals 42
-SELECT Name, Address FROM phone_book WHERE id = 42;
-
--- Select every column from the phone_book table where the Name equals "Cody Winton"
-SELECT * FROM phone_book WHERE Name = 'Cody Winton';
-```
-
 **Previous:** [Introduction](introduction.markdown) |
-**Next:** [Data](data.markdown)
+**Next:** [Modifiers](modifiers.markdown)
