@@ -1,11 +1,11 @@
 # SQL Modifiers
 
 * [Operators](#operators)
-* [WHERE: Filter Records](#where-filter-records)
-* [AND, OR, NOT: Chaining Conditionals](#and-or-not-chaining-conditionals)
-* [ORDER BY: Show Data Beautifully](#order-by-show-data-beautifully)
-* [NULL: To Be or Not To Be](#null-to-be-or-not-to-be)
-* [SELECT DISTINCT: Get Distinct Records](#select-distinct-get-distinct-records)
+* [WHERE](#where)
+* [AND, OR, NOT](#and-or-not)
+* [ORDER BY](#order-by)
+* [IS NULL, IS NOT NULL](#is-null-is-not-null)
+* [SELECT DISTINCT](#select-distinct)
 
 ANSI SQL provides additional statement keywords that can be used in tandem with the four CRUD statements to modify the results.
 
@@ -22,7 +22,7 @@ In ANSI SQL, there are several operators that are used:
 | `>=`      | Greater than or equal                                                         |
 | `<=`      | Less than or equal                                                            |
 
-## WHERE: Filter Records
+## WHERE
 
 In SQL statements, the `WHERE` clause allows you to filter your data based on a certain conditional. The `SELECT`, `UPDATE`, and `DELETE` statements support adding the `WHERE` clause:
 
@@ -31,7 +31,7 @@ In SQL statements, the `WHERE` clause allows you to filter your data based on a 
 SELECT Name, Address FROM phone_book WHERE id = 42;
 ```
 
-## AND, OR, NOT: Chaining Conditionals
+## AND, OR, NOT
 
 In SQL statements, you can chain conditionals together for the `WHERE` clause, allowing for logical operations with `AND`, `OR`, and `NOT`.
 
@@ -65,7 +65,7 @@ SELECT * FROM Customers
 WHERE NOT Country='Germany' AND NOT Country='USA';
 ```
 
-## ORDER BY: Show Data Beautifully
+## ORDER BY
 
 In SQL statements, the `ORDER BY` keyword can be used to sort the records returned by your `SELECT` statement. The `ORDER BY` follows this syntax:
 
@@ -84,7 +84,7 @@ SELECT * FROM Customers ORDER BY Country;
 SELECT * FROM Customers ORDER BY Country ASC, CustomerName DESC;
 ```
 
-## NULL: To Be or Not To Be
+## IS NULL, IS NOT NULL
 
 In SQL statements, the keyword `NULL` represents the absence of value:
 
@@ -98,7 +98,7 @@ SELECT LastName, FirstName, Address FROM Persons
 WHERE Address IS NOT NULL;
 ```
 
-## SELECT DISTINCT: Get Distinct Records
+## SELECT DISTINCT
 
 The `SELECT DISTINCT` statement will only return records with different values in the provided columns:
 
