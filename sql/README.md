@@ -7,6 +7,7 @@
 * [Source Code Line Termination](#source-code-line-termination)
 * [Case Sensitivity](#case-sensitivity)
 * [Material](#material)
+* [Exercises](#exercises)
 
 ## Documentation and Resources
 
@@ -62,3 +63,7 @@ Awesome, let's get your [System Setup](system.markdown) and move onto our materi
 * [Introduction](introduction.markdown)
 * [Statements](statements.markdown)
 * [Data](data.markdown)
+
+## Exercises
+
+* [SqlIntro](https://github.com/truecodersio/SqlIntro)
