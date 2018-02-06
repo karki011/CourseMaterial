@@ -1,13 +1,10 @@
 # SQL Injection
 
 * [Introduction](#introduction)
-* [Examples](#examples)
-  * [Malicious](#malicious)
-  * [Invalid Input](#invalid-input)
+* [Malicious](#malicious)
+* [Invalid Input](#invalid-input)
 
 ## Introduction
-
-![Little Bobby Tables](../assets/sql-1.png "Little Bobby Tables")
 
 SQL Injection is the "injection" of unexpected or malicious code into SQL statements.
 
@@ -15,16 +12,16 @@ SQL Injection is the "injection" of unexpected or malicious code into SQL statem
 * Worst Case: this can be exploited to copy or destroy your database
 * Every Case: it's bad. Anytime you hear SQL Injection, just know that it's something to avoid.
 
-## Examples
+![Little Bobby Tables](../assets/sql-1.png "Little Bobby Tables")
 
-### Malicious
+## Malicious
 
 Here's an example of C# code that is vunerable to SQL Injection:
 
 ```cs
-public void SelectUser(string id)
+public void InsertProduct(string name)
 {
-    var sql = $"SELECT * FROM Users WHERE UserId = {id}";
+    var sql = $"INSERT INTO Product (Name) VALUES ('{name}');";
     // Execute SQL here
 }
 ```
@@ -32,25 +29,25 @@ public void SelectUser(string id)
 If I call my method like so:
 
 ```cs
-SelectUser("105; DROP TABLE Product;")
+InsertProduct("Test'); DROP TABLE Product; --")
 ```
 
 the resulting SQL statement will be:
 
 ```sql
-SELECT * FROM Users WHERE UserId = 105; DROP TABLE Product;
+INSERT INTO Product (Name) VALUES ('Test'); DROP TABLE Product; --');
 ```
 
-This is a valid SQL statement that will select the desired user and then delete the `Product` table.
+This is a valid SQL statement that will add a product and then delete the `Product` table.
 
-### Invalid Input
+## Invalid Input
 
 In addition to that, you will have lots of trouble with invalid input like "O'Henry". If I have this method:
 
 ```cs
 public void InsertProduct(string name)
 {
-    var sql = $"INSERT INTO Product (Name) VALUES ('{name}')";
+    var sql = $"INSERT INTO Product (Name) VALUES ('{name}');";
     // Execute SQL here
 }
 ```
