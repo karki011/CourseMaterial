@@ -3,6 +3,7 @@
 * [Introduction](#introduction)
 * [Malicious](#malicious)
 * [Invalid Input](#invalid-input)
+* [Parameterized Statements](#parameterized-statements)
 
 ## Introduction
 
@@ -65,6 +66,29 @@ INSERT INTO Product (Name) VALUES ('O'Henry');
 ```
 
 This is an invalid SQL statement that will fail because we have an open string delimiter, but no closed string delimiter. Not malicious code, but it will still fail.
+
+## Parameterized Statements
+
+Every language supports some version of [parameterized statements](https://en.wikipedia.org/wiki/Prepared_statement#C.23_ADO.NET), sometimes called prepared statements. Parameterized statements allow you to abstract your statement from your parameters.
+
+Parameterized statements will sanitize your data by escaping any dangerous characters and performing any parsing or optimization necessary. Poor man's protection is just to do a `statement.Replace("'", "\'")` on the input, but if there is a more sophisticated attack, then this is not sufficient. It's better to use parameterized statements and sleep soundly.
+
+Here's an example of a parameterized statement in C#:
+
+```cs
+SqlCommand command = sqlConnection.CreateCommand();
+command.CommandText = "INSERT INTO Product (Name) VALUES (@name);";
+command.Parameters.AddWithValue("@name", "Bicycle");
+
+SqlDataReader dataReader = command.ExecuteReader();
+// Handle data
+```
+
+The resulting SQL statement will be:
+
+```sql
+INSERT INTO Product (Name) VALUES ('Bicycle');
+```
 
 **Previous:** [Data](data.markdown) |
 **Next:** []()
