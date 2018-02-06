@@ -2,8 +2,16 @@
 
 * [INNER JOIN](#inner-join)
 * [LEFT JOIN](#left-join)
+* [Other JOINs](#other-joins)
+  * [RIGHT JOIN](#right-join)
+  * [FULL OUTER JOIN](#full-outer-join)
+  * [LEFT EXCLUDING JOIN](#left-excluding-join)
+  * [RIGHT EXCLUDING JOIN](#right-excluding-join)
+  * [FULL OUTER EXCLUDING JOIN](#full-outer-excluding-join)
 
-Combining multiple tables is where the real power of SQL lives. SQL can combine multiple tables on criteria that match and report them as one result set. Here are several Venn diagrams showing the visual representation of the different Joins available:
+Combining multiple tables is where the real power of SQL lives. SQL can combine multiple tables on criteria that match and report them as one result set. That is where a JOIN clause comes in.
+
+A JOIN clause is used to combine rows from two or more tables, based on a related column between them. Here are several Venn diagrams showing the visual representation of the different Joins available:
 
 ![SQL Joins](../assets/sql-joins.jpg "SQL Joins")
 
@@ -44,6 +52,30 @@ FROM Customers
 LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID
 ORDER BY Customers.CustomerName;
 ```
+
+## Other JOINs
+
+While the majority of your joins will tend to be `INNER` or `LEFT` join statements, there are several other joins available to you:
+
+### RIGHT JOIN
+
+![SQL RIGHT JOIN](../assets/sql-right-join.png "SQL RIGHT JOIN")
+
+### FULL OUTER JOIN
+
+![SQL FULL OUTER JOIN](../assets/sql-full-outer-join.png "SQL FULL OUTER JOIN")
+
+### LEFT EXCLUDING JOIN
+
+![SQL LEFT EXCLUDING JOIN](../assets/sql-left-excluding-join.png "SQL LEFT EXCLUDING JOIN")
+
+### RIGHT EXCLUDING JOIN
+
+![SQL RIGHT EXCLUDING JOIN](../assets/sql-right-excluding-join.png "SQL RIGHT EXCLUDING JOIN")
+
+### FULL OUTER EXCLUDING JOIN
+
+![SQL FULL OUTER EXCLUDING JOIN](../assets/sql-full-outer-excluding-join.png "SQL FULL OUTER EXCLUDING JOIN")
 
 **Previous:** [Injection](injection.markdown) |
 **Next:** []()
