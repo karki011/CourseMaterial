@@ -61,7 +61,7 @@ In ANSI SQL, data tends to resolve to 1 of 4 data types:
 While not technically required for a table, best practice demands a primary key. Your best two options are:
 
 * `INT` or `LONGINT`: an integer that increments for you as you insert your data
-* `GUID` (Globaly Unique IDentifier): a generated value that is extremely mathematically likely to be unique in the universe
+* `GUID` (Globally Unique IDentifier): a generated value that is extremely mathematically likely to be unique in the universe
 
 ### Other Data Types
 
