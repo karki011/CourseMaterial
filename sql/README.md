@@ -65,6 +65,7 @@ Awesome, let's get your [System Setup](system.markdown) and move onto our materi
 * [Modifiers](modifiers.markdown)
 * [Data](data.markdown)
 * [Injection](injection.markdown)
+* [Joins](joins.markdown)
 
 ## Exercises
 
