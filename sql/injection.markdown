@@ -13,7 +13,7 @@ SQL Injection is the "injection" of unexpected or malicious code into SQL statem
 * Worst Case: this can be exploited to copy or destroy your database
 * Every Case: it's bad. Anytime you hear SQL Injection, just know that it's something to avoid.
 
-![Little Bobby Tables](../assets/sql-1.png "Little Bobby Tables")
+![Little Bobby Tables](../assets/little-bobby-tables.png "Little Bobby Tables")
 
 ## Malicious
 
@@ -91,4 +91,4 @@ INSERT INTO Product (Name) VALUES ('Bicycle');
 ```
 
 **Previous:** [Data](data.markdown) |
-**Next:** []()
+**Next:** [Joins](joins.markdown)
