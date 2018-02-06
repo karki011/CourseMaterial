@@ -12,6 +12,7 @@
 | **DRY**         | Don't Repeat Yourself                                             | Programming          |
 | **DVCS**        | Distributed Version Control System                                | Source Control       |
 | **GUI**         | Graphical User Interface                                          | General              |
+| **GUID**        | Globally Unique Identifier                                        | Relational Databases |
 | **IDE**         | Integrated Development Environment                                | Programming          |
 | **IoC**         | Inversion of Control                                              | Architecture         |
 | **JSON**        | JavaScript Object Notation                                        | Programming          |
