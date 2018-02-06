@@ -67,5 +67,5 @@ While not technically required for a table, best practice demands a primary key.
 
 Here is a list of [SQL Data Types](https://www.w3schools.com/sql/sql_datatypes.asp) available to you in ANSI SQL.
 
-**Previous:** [Introduction](introduction.markdown) |
-**Next:** [Statements](statements.markdown)
+**Previous:** [Modifiers](modifiers.markdown) |
+**Next:** [Injection](injection.markdown)

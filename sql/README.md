@@ -62,7 +62,9 @@ Awesome, let's get your [System Setup](system.markdown) and move onto our materi
 
 * [Introduction](introduction.markdown)
 * [Statements](statements.markdown)
+* [Modifiers](modifiers.markdown)
 * [Data](data.markdown)
+* [Injection](injection.markdown)
 
 ## Exercises
 
