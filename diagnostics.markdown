@@ -43,7 +43,7 @@ If you cannot reproduce the issue, here's some things to check:
 * Data:
   * Extremely large strings
   * Improperly encoded values. Use the death string to reproduce:
-    * !@#$%^&*(*())_{}:”?><.//f
+    * !@#$%^&*(*())_{}:"?><.//f
   * Data previously stored in the database.
 
 ### Determine the Nature of the Problem
